@@ -1,0 +1,44 @@
+/*Modalidad*/
+#modality {
+    padding: 100px 0;
+  }
+  
+  /* Accordion styles */
+  .panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #EEEEEE;
+  }
+  
+  .panel-default > .panel-heading {
+    padding: 0;
+    border-radius: 3px;
+    color: #EEEEEE;
+    opacity: 0.9;
+    background-color: #FF5500;
+    border-color: #EEEEEE;
+  }
+  
+  .panel-title {
+    font-size: 14px;
+  }
+  
+  .panel-title > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #EEEEEE;
+  }
+  
+  .more-less {
+    float: right;
+    color: #EEEEEE;
+  }
+  
+  .panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #EEEEEE;
+  }
+
+  .panel-body {
+    text-align: justify;
+  }

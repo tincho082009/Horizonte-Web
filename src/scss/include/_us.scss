@@ -1,0 +1,50 @@
+/* Us Section */
+#Nosotros {
+    padding: 100px 0;
+    background: #f6f6f6;
+  }
+  #Nosotros h3 {
+    font-size: 22px;
+    margin: 0 0 20px;
+    
+  }
+  #Nosotros h2 {
+    position: relative;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+  #Nosotros h2::after {
+    position: absolute;
+    content: "";
+    background: #FF5500;
+    height: 4px;
+    width: 60px;
+    bottom: 0;
+    left: 0;
+  }
+  #Nosotros .about-text li {
+    margin-bottom: 6px;
+    margin-left: 6px;
+    list-style: none;
+    padding: 0;
+  }
+  #Nosotros .about-text li:before {
+    content: "\f00c";
+    font-family: "FontAwesome";
+    color: #5ca9fb;
+    font-size: 11px;
+    font-weight: 300;
+    padding-right: 8px;
+  }
+  #Nosotros img {
+    width: 520px;
+    margin-top: 10px;
+    background: #fff;
+    border-right: 0;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+  }
+  #Nosotros p {
+    line-height: 24px;
+    margin: 30px 0;
+    text-align: justify;
+  }

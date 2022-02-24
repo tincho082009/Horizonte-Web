@@ -1,0 +1,53 @@
+/*Contents section*/
+#contents {
+    padding: 100px 0;
+    background: #f6f6f6;
+  }
+  #contents .section-title {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  #contents .texto {
+    text-align: justify;
+  }
+  #contents h3 {
+    text-align: center;
+  }
+  #contents .list-style li {
+    margin-bottom: 6px;
+    margin-left: 6px;
+    list-style: none;
+    padding: 0;
+  }
+  #contents .list-style li:before {
+    content: "\f00c";
+    font-family: "FontAwesome";
+    color: #60B071;
+    font-size: 11px;
+    font-weight: 300;
+    padding-right: 8px;
+  }
+  
+  #contents .nav li { 
+    float:none;
+    display:inline-block;
+    zoom:1;
+  }
+  
+  #contents .nav {
+    text-align:center;
+  }
+  
+  #contents .nav-pills li a {
+    background-color: #ff5500b6;
+    color: #e6e6e6
+  }
+  
+  #contents .nav-pills li.active a {
+    background-color: #FF5500;
+  }
+  
+  #exTab1 .tab-content {
+    padding : 5px 15px;
+  }
+  
