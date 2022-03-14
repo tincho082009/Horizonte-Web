@@ -27,7 +27,7 @@ export const Header = (props) => {
                 Horizonte
                 <span></span>
                 </h1>
-                <p>Plataforma educativa</p>
+                <p>Plataforma Educativa</p>
               </div>
             </div>
         </div>

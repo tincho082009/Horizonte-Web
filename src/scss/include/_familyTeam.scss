@@ -1,9 +1,25 @@
 /*Equipo de familias*/
 #EquipoDeFamilias {
     padding: 100px 0;
-    background: linear-gradient(to right, #60B071 0%, #9add6f 100%);
+    background: #a3c734;
+    //background: linear-gradient(to right, #60B071 0%, #9add6f 100%);
     color: #fff;
   }
+
+  #EquipoDeFamilias .row {
+    display: flex;
+    .col-md-6{
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 992px) {
+    #EquipoDeFamilias .row {
+      display: block;
+    }
+  }
+
   #EquipoDeFamilias h2 {
     position: relative;
     margin-bottom: 15px;
@@ -23,10 +39,18 @@
     width: 520px;
     margin-top: 10px;
     border-radius: 5px;
+    margin-top: 10%;
     background: #fff;
     border-right: 0;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
   }
+
+  @media (max-width: 992px) {
+    #EquipoDeFamilias img {
+      margin: 50px 0;
+    }
+  }
+
   #EquipoDeFamilias p {
     line-height: 24px;
     margin: 30px 0;

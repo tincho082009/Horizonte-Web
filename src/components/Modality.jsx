@@ -37,7 +37,7 @@ export const Modality = (props) => {
                             </div>
                             <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                 <div class="panel-body">
-                                    Contiene todas las materias curriculares de los programas exigidos por las instituciones educativas nacionales o internacionales. Nuestro compromiso es motivar y acompañar a cada alumno para que alcance su máximo potencial en comprender y asimilar los contenidos gradualmente <a href="/#contents">(Ver Contenidos)</a>
+                                    Contiene todas las materias curriculares para la enseñanza con soporte audiovisual, digital y contextual. Nuestro compromiso es motivar y acompañar a cada alumno para que alcance su máximo potencial en comprender y asimilar los contenidos gradualmente <a href="/#contents">(Ver Contenidos)</a>.
                                 </div>
                             </div>
                         </div>
@@ -53,7 +53,7 @@ export const Modality = (props) => {
                             </div>
                             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                                 <div class="panel-body">
-                                    Añadiremos talleres prácticos, cursos cortos, contenidos específicos, o materias desarrolladas, de las llamadas “orientaciones” en el nivel secundario final (como “Oficios y Tecnología”; “Ciencias humanas y sociales”; “Economía y Administración”; “Arte y Música”; “Educación Física”; “Capacitación Bíblica”; etc). El objetivo es que cada estudiante, junto a sus padres, descubran desde la niñez temprana sus intereses y habilidades individuales, y los desarrollen estratégicamente durante ambos niveles académicos.      
+                                    Nuestro objetivo es que cada estudiante junto a sus padres, descubran sus intereses y habilidades individuales y los desarrollen estratégicamente. Seguiremos construyendo recursos para ampliar el interés vocacional de los alumnos.    
                                 </div>
                             </div>
                         </div>

@@ -1,8 +1,23 @@
 /* Us Section */
-#Nosotros {
+  #Nosotros {
     padding: 100px 0;
     background: #f6f6f6;
   }
+
+  #Nosotros .row {
+    display: flex;
+    .col-md-6{
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 992px) {
+    #Nosotros .row {
+      display: block;
+    }
+  }
+
   #Nosotros h3 {
     font-size: 22px;
     margin: 0 0 20px;
@@ -38,11 +53,19 @@
   }
   #Nosotros img {
     width: 520px;
-    margin-top: 10px;
+    border-radius: 5px;
+    margin-top: 10%;
     background: #fff;
     border-right: 0;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
   }
+
+  @media (max-width: 992px) {
+    #Nosotros img {
+      margin: 50px 0;
+    }
+  }
+
   #Nosotros p {
     line-height: 24px;
     margin: 30px 0;

@@ -5,9 +5,9 @@ export const Contents = (props) => {
           <div className="row">
             <div className="col-xs-12 col-md-6" >
               <div className='section-title'>
-                <h2>Contenido</h2>
+                <h2>Currícula</h2>
                 <p>
-                    Horizonte tiene un diseño curricular completo basado en los NAP (Nucleos de aprendizajes prioritarios.
+                  Contamos con un programa curricular completo diseñado pedagógicamente.
                 </p>
               </div>
               <div id="exTab1">	
@@ -25,8 +25,8 @@ export const Contents = (props) => {
                         <ul>
                           <li>Inglés.</li>
                           <li>Matemáticas</li>
+                          <li>Práctica del lenguaje.</li>
                           <li>Ciencias naturales y tecnología.</li>
-                          <li>Práctica del lenguaje y plan lector </li>
                           <li>Ciencias sociales con formación ética y ciudadanía.</li>
                         </ul>
                       </div>
@@ -57,15 +57,18 @@ export const Contents = (props) => {
               </div>
               <p className='texto'>
                 Cada programa anual está desarrollado en 32 semanas. 
-               <br/> Cada semana trabajarán lecciones armadas con el contenido teórico, más didácticas prácticas de comprensión con ejercitaciones. Al finalizar la semana se realizará una evaluación de lo aprendido. 
+               <br/> Cada semana trabajarán lecciones armadas con el contenido teórico, material didáctico, prácticas y ejercitaciones. Al finalizar la semana se realizará una evaluación de lo aprendido. 
                <br/> Además, como refuerzo de repaso de contenidos y para diagnosticar la asimilación de saberes a mediano plazo, se realizará una evaluación trimestral autocorregida.
-               <br/> De 4° a 8° las evaluaciones trimestrales de Matemáticas y Prácticas del lenguaje se realizarán vía online con profesor cara a cara. Y de 9° a 12°, se añaden a dicha modalidad evaluativa las materias Física y química.
+               <br/> De 4° a 8° las evaluaciones trimestrales de Matemáticas y Prácticas del lenguaje se realizarán vía online con el profesor a cargo de cada materia. Y de 9° a 12°, se añaden a dicha modalidad evaluativa las materias Física y Química.
               </p>
             </div>
           </div>
           <br></br>
           <div className='col-md-8 col-md-offset-2 section-title'>
-            <h4> Educacion Cristiana en todos los cursos (opcional)</h4>
+            <h5>Formación Bíblica en todos los cursos (opcional)</h5>
+          </div>
+          <div className='col-md-12 section-title'>
+          <h4>Horizonte no otorga certificados oficiales. Solo brindamos los contenidos para ser certificados.</h4>
           </div>
         </div>
        </div>

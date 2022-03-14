@@ -28,6 +28,7 @@ const App = () => {
   return (
     <div>
       <Navigation />
+      <a id="icon-whats" href="https://api.whatsapp.com/send?phone=542665113630&text=Hola%20Yaneth!%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Plataforma%20Horizonte!" target="_blank" style={{position:"fixed", width: "60px", height: "60px", bottom: "40px", right:"40px", backgroundColor:"#00BB2D", color: "#FFF", borderRadius:"50px", textAlign:"center", boxShadow: "2px 2px 3px #999", zIndex: "21"}}></a>
       <Header />
       <Us />
       <MissionVision />   

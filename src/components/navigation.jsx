@@ -38,8 +38,9 @@ export const Navigation = (props) => {
             {/*<div className='container-img-menu'></div>*/}
             <img src={img1} className={`img-menu-${flag}`}/>
           </a>{' '}
+          <div className="text-menu"style={flag == "top" ? {display:  "none"}:{}}>Sembrando en el corazón <br/> de nuestros hijos</div>
         </div>
-
+        
         <div
           className='collapse navbar-collapse'
           id='bs-example-navbar-collapse-1'
@@ -47,12 +48,12 @@ export const Navigation = (props) => {
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='#Nosotros' className='page-scroll'>
-                Quienes somos
+                Quiénes somos
               </a>
             </li>
             <li>
               <a href='#OfertaAcademica' className='page-scroll'>
-                Oferta academica
+                Oferta académica
               </a>
             </li>
             <li >
@@ -61,7 +62,7 @@ export const Navigation = (props) => {
               </a>
             </li>
              <li >
-              <a href='http://plataforma.educarhorizonte.com.ar/' target="_blank" className='page-scroll' style={{color: "#fff", backgroundColor: "#FF5500"}}>
+              <a href='https://plataforma.educarhorizonte.com.ar/' target="_blank" className='page-scroll' style={{color: "#fff", backgroundColor: "#FF5500"}}>
                 Ingresar
               </a>
             </li>

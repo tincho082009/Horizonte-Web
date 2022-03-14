@@ -1,7 +1,8 @@
 /* Contact Section */
 #contact {
     padding: 100px 0 60px;
-    background: linear-gradient(to right, #9add6f 0%, #60B071 100%);
+    background: #a3c734;
+    //background: linear-gradient(to right, #9add6f 0%, #60B071 100%);
     color: rgba(255, 255, 255, 0.75);
   }
   #contact .section-title {
@@ -94,12 +95,12 @@
   }
   #contact .contact-item p {
     font-size: 1.7rem;
-    font-weight: 400;
+    font-weight: 500;
     color: #fff
   }
   #contact .contact-item span {
     color: rgba(255, 255, 255, 1);
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     display: block;
   }
   #contact .contact-item i.fa {

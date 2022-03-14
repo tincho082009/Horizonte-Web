@@ -71,6 +71,14 @@ hr {
   border: 0;
 }
 
+#icon-whats:before {
+  font-size: 43px;
+  content: "\f232";
+  margin-left: 3px;
+  font-family: "FontAwesome";
+  color: #FFFF; 
+}
+
 @media screen and (max-width: 400px) {
   #header,
   #Nosotros,
@@ -90,3 +98,4 @@ hr {
     width: 110%;
   }
 }
+

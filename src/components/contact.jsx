@@ -2,12 +2,12 @@ import { useState } from 'react'
 import emailjs from 'emailjs-com'
 
 const initialState = {
-  name: '',
+  from_name: '',
   email: '',
   message: '',
 }
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState)
+  const [{ from_name, email, message }, setState] = useState(initialState)
 
   const handleChange = (e) => {
     const { name, value } = e.target
@@ -17,10 +17,9 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log(name, email, message)
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        'service_n8yt0qi', 'template_lcfqavg', e.target, 'user_yAszrvWf30vOsrpPVYUfL'
       )
       .then(
         (result) => {
@@ -40,7 +39,7 @@ export const Contact = (props) => {
             <div className='row'>
               <div className='section-title'>
                 <h2>Contacto</h2>
-                <p>
+                <p style={{fontSize:"1.7rem", fontWeight:"500"}}>
                   ¡Dejanos tus datos y nos comunicaremos contigo!
                 </p>
               </div>
@@ -50,8 +49,8 @@ export const Contact = (props) => {
                     <div className='form-group'>
                       <input
                         type='text'
-                        id='name'
-                        name='name'
+                        id='from_name'
+                        name='from_name'
                         className='form-control'
                         placeholder='Nombre'
                         required
@@ -96,10 +95,10 @@ export const Contact = (props) => {
           </div>
           <div className='col-md-3 col-md-offset-1 contact-info'>
             <div className='contact-item'>
-              <h3>Informacion Contacto</h3>
+              <h3>Información Contacto</h3>
               <p>
                 <span>
-                  <i className='fa fa-map-marker'></i> Direccion
+                  <i className='fa fa-map-marker'></i> <b>Dirección</b>
                 </span>
                 Sargento Cabral 1261, Muñiz, Buenos Aires, Argentina.
               </p>
@@ -107,23 +106,23 @@ export const Contact = (props) => {
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-phone'></i> Telefono
+                  <i className='fa fa-phone'></i> <b>Teléfono</b>
                 </span>{' '}
                 Yanet Medina
                 <br/>Relaciones Públicas e informes
-                <br/>+54 9 2665 11-3630
+                <br/><a href='tel:+54 9 2665 11-3630' style={{color:"white"}}><p>+54 9 2665 11-3630</p></a>
               </p>
             </div>
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-envelope-o'></i> Email
+                  <i className='fa fa-envelope-o'></i> <b>Email</b>
                 </span>{' '}
-                yanet@educarhorizonte.com.ar
+                <a href='mailto:yanet@educarhorizonte.com.ar' style={{color:"white"}}><p>yanet@educarhorizonte.com.ar</p></a>
               </p>
             </div>
           </div>
-          <div className='col-md-12'>
+          {/*<div className='col-md-12'>
             <div className='row'>
               <div className='social'>
                 <ul>
@@ -145,7 +144,7 @@ export const Contact = (props) => {
                 </ul>
               </div>
             </div>
-          </div>
+          </div>*/}
         </div>
       </div>
     </div>

@@ -1,8 +1,11 @@
 import img1 from "../assets/img/EquipoDocentes/CamilaQuiroga.jpeg"
 import img2 from "../assets/img/EquipoDocentes/DeboraEspinola2.jpeg"
-//import img3 from "../assets/img/EquipoDocentes/MatiasAbb.jpeg"
-import img3 from "../assets/img/team/03.jpg"
-import img4 from "../assets/img/team/04.jpg"
+import img3 from "../assets/img/EquipoDocentes/MatiasAbb2.jpeg"
+import img4 from "../assets/img/EquipoDocentes/DavidGonzalez2.jpeg"
+import img5 from "../assets/img/EquipoDocentes/MelisaCardeilhac2.jpeg"
+import img6 from "../assets/img/EquipoDocentes/MariaRuiz2.jpeg"
+import img7 from "../assets/img/EquipoDocentes/EzequielChao2.jpeg"
+import img8 from "../assets/img/EquipoDocentes/IrisAab2.jpeg"
 
 export const TeachersTeam = (props) => {
     return (
@@ -10,19 +13,29 @@ export const TeachersTeam = (props) => {
         <div className='container'>
           <div className='col-md-8 col-md-offset-2 section-title'>
             <h2>Equipo de Docentes</h2>
-            <p>
+            {/*<p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
               dapibus leonec.
-            </p>
+            </p>*/}
           </div>
-          <div id='row'>
+          <div className='row'>
             <div key={`John Doe-1`} className='col-md-3 col-sm-6 team'>
                 <div className='thumbnail'>
                     {' '}
-                    <img src={img1} alt='...' className='team-img' />
+                    <img src={img7} alt='...' className='team-img' />
                     <div className='caption'>
-                    <h4>Camila Micaela Quiroga R.</h4>
-                    <p>Profesorado en Educación Primaria</p>
+                        <h4>Ezequiel Chao Farroni</h4>
+                        <p>Supervisor Docente.<br /> Profesor de Física y Química. <br />Ingeniero Agrónomo (FAUBA), Formación pedagógica (UFASTA)</p>
+                    </div>
+                 </div>
+            </div>
+            <div key={`John Doe-1`} className='col-md-3 col-sm-6 team'>
+                <div className='thumbnail'>
+                    {' '}
+                    <img src={img5} alt='...' className='team-img' />
+                    <div className='caption'>
+                    <h4>Melisa Laura Cardeilhac</h4>
+                    <p>Profesora de Educación Primaria</p>
                     </div>
                 </div>
             </div>
@@ -41,65 +54,56 @@ export const TeachersTeam = (props) => {
                     {' '}
                     <img src={img3} alt='...' className='team-img' />
                     <div className='caption'>
-                    <h4>{/*Matias David Aab*/} Joe Doe</h4>
-                    <p>{/*Tutor de Biología*/}Senior Designer</p>
-                    </div>
-                </div>
-            </div>
-            <div key={`Karen Doe-1`} className='col-md-3 col-sm-6 team'>
-                <div className='thumbnail'>
-                    {' '}
-                    <img src={img4} alt='...' className='team-img' />
-                    <div className='caption'>
-                    <h4>Karen Doe</h4>
-                    <p>Project Manager</p>
+                    <h4>Matias David Aab {/*Joe Doe*/}</h4>
+                    <p>Tutor de Biología {/*Senior Designer*/}</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div id='row'>
+        <div className='row'>
             <div key={`Karen Doe-1`} className='col-md-3 col-sm-6 team'>
                 <div className='thumbnail'>
                     {' '}
                     <img src={img4} alt='...' className='team-img' />
                     <div className='caption'>
-                    <h4>Karen Doe</h4>
-                    <p>Project Manager</p>
+                    <h4>David Leonardo González M.</h4>
+                    <p>Profesor de Matemáticas</p>
+                    </div>
+                </div>
+            </div>
+            <div key={`Karen Doe-1`} className='col-md-3 col-sm-6 team'>
+                <div className='thumbnail'>
+                    {' '}
+                    <img src={img1} alt='...' className='team-img' />
+                    <div className='caption'>
+                    <h4>Camila Micaela Quiroga R.</h4>
+                    <p>Profesora de Educación Primaria</p>
                     </div>
                 </div>
             </div>
             <div key={`Jane Doe-1`} className='col-md-3 col-sm-6 team'>
                 <div className='thumbnail'>
                     {' '}
-                    <img src={img3} alt='...' className='team-img' />
+                    <img src={img6} alt='...' className='team-img' />
                     <div className='caption'>
-                    <h4>Jane Doe</h4>
-                    <p>Senior Designer</p>
+                    <h4>María Celeste Ruiz</h4>
+                    <p>Profesora de Inglés</p>
                     </div>
                 </div>
             </div>
-            <div key={`John Doe-1`} className='col-md-3 col-sm-6 team'>
+            
+            <div key={`Jane-1`} className='col-md-3 col-sm-6 team'>
                 <div className='thumbnail'>
                     {' '}
-                    <img src={img4} alt='...' className='team-img' />
+                    <img src={img8} alt='...' className='team-img' />
                     <div className='caption'>
-                    <h4>John Doe</h4>
-                    <p>Director</p>
+                    <h4>Iris Aab</h4>
+                    <p>Tutora de Historia y Geografía</p>
                     </div>
                 </div>
             </div>
-            <div key={`Mike Doe-1`} className='col-md-3 col-sm-6 team'>
-                <div className='thumbnail'>
-                    {' '}
-                    <img src={img3} alt='...' className='team-img' />
-                    <div className='caption'>
-                        <h4>Mike Doe</h4>
-                        <p>Senior Designer</p>
-                    </div>
-                </div>
-            </div>
+          </div>     
         </div>
-      </div>
       </div>
     )
   }
