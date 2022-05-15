@@ -56,10 +56,10 @@ export const Contents = (props) => {
                 <h2>Plan de estudio</h2>
               </div>
               <p className='texto'>
-                Cada programa anual está desarrollado en 32 semanas. 
-               <br/> Cada semana trabajarán lecciones armadas con el contenido teórico, material didáctico, prácticas y ejercitaciones. Al finalizar la semana se realizará una evaluación de lo aprendido. 
-               <br/> Además, como refuerzo de repaso de contenidos y para diagnosticar la asimilación de saberes a mediano plazo, se realizará una evaluación trimestral autocorregida.
-               <br/> De 4° a 8° las evaluaciones trimestrales de Matemáticas y Prácticas del lenguaje se realizarán vía online con el profesor a cargo de cada materia. Y de 9° a 12°, se añaden a dicha modalidad evaluativa las materias Física y Química.
+                Nuestro programa anual está dividido en 32 semanas, desarrolladas con diferentes recursos como videos, archivos PDF, elementos multimedia interactivos, etc.
+               <br/> Cada semana concluye con trabajos prácticos o evaluaciones semanales para imprimir o en forma digital, para el seguimiento y avance académico de los alumnos. 
+               <br/> Durante el ciclo lectivo se programarán algunos encuentros vía Google Meet o Zoom (en las areas de Matemáticas y Prácticas del lenguaje, Física y Química en los grados mayores) Estos encuentros NO serán obligatorios, serán opcionales.
+               <br/> La finalidad de estos encuentros es que los alumnos puedan interactuar entre ellos y con los profesores, diagnosticar la asimilación de contenidos a través de situaciones de la vida cotidiana desarrollando la expresión oral y el pensamiento analítico.
               </p>
             </div>
           </div>

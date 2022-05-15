@@ -38,7 +38,7 @@ export const Navigation = (props) => {
             {/*<div className='container-img-menu'></div>*/}
             <img src={img1} className={`img-menu-${flag}`}/>
           </a>{' '}
-          <div className="text-menu"style={flag == "top" ? {display:  "none"}:{}}>Sembrando en el corazón <br/> de nuestros hijos</div>
+          <div className="text-menu"style={flag == "top" ? {display:  "none"}:{}}>"Sembrando en el corazón <br/> de nuestros hijos"</div>
         </div>
         
         <div

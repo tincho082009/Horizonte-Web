@@ -1,11 +1,14 @@
-import img1 from "../assets/img/EquipoDocentes/CamilaQuiroga.jpeg"
+import img1 from "../assets/img/EquipoDocentes/CamilaQuiroga2.jpeg"
 import img2 from "../assets/img/EquipoDocentes/DeboraEspinola2.jpeg"
 import img3 from "../assets/img/EquipoDocentes/MatiasAbb2.jpeg"
 import img4 from "../assets/img/EquipoDocentes/DavidGonzalez2.jpeg"
-import img5 from "../assets/img/EquipoDocentes/MelisaCardeilhac2.jpeg"
+import img5 from "../assets/img/EquipoDocentes/AbigailLavini2.jpeg"
 import img6 from "../assets/img/EquipoDocentes/MariaRuiz2.jpeg"
 import img7 from "../assets/img/EquipoDocentes/EzequielChao2.jpeg"
 import img8 from "../assets/img/EquipoDocentes/IrisAab2.jpeg"
+import img9 from "../assets/img/EquipoDocentes/AnabelLima.jpeg"
+import img10 from "../assets/img/EquipoDocentes/MatiasMerlo.jpeg"
+import img11 from "../assets/img/EquipoDocentes/LauraJuarez.jpeg"
 
 export const TeachersTeam = (props) => {
     return (
@@ -25,7 +28,7 @@ export const TeachersTeam = (props) => {
                     <img src={img7} alt='...' className='team-img' />
                     <div className='caption'>
                         <h4>Ezequiel Chao Farroni</h4>
-                        <p>Supervisor Docente.<br /> Profesor de Física y Química. <br />Ingeniero Agrónomo (FAUBA), Formación pedagógica (UFASTA)</p>
+                        <p>Supervisor Docente.<br /> Profesor de Física y Química.<br/>Nivel Secundario <br />Ingeniero Agrónomo (FAUBA), Formación pedagógica (UFASTA)</p>
                     </div>
                  </div>
             </div>
@@ -34,8 +37,8 @@ export const TeachersTeam = (props) => {
                     {' '}
                     <img src={img5} alt='...' className='team-img' />
                     <div className='caption'>
-                    <h4>Melisa Laura Cardeilhac</h4>
-                    <p>Profesora de Educación Primaria</p>
+                    <h4>Abigail Lavini</h4>
+                    <p>Profesora Nivel Primario</p>
                     </div>
                 </div>
             </div>
@@ -45,7 +48,7 @@ export const TeachersTeam = (props) => {
                     <img src={img2} alt='...' className='team-img' />
                     <div className='caption'>
                         <h4>Débora Anahí Espínola</h4>
-                        <p>Profesora de Lengua y Literatura</p>
+                        <p>Profesora de Lengua y Literatura.<br/>Nivel Secundario</p>
                     </div>
                 </div>
             </div>
@@ -55,7 +58,7 @@ export const TeachersTeam = (props) => {
                     <img src={img3} alt='...' className='team-img' />
                     <div className='caption'>
                     <h4>Matias David Aab {/*Joe Doe*/}</h4>
-                    <p>Tutor de Biología {/*Senior Designer*/}</p>
+                    <p>Profesor de Biología.<br/>Nivel Secundario {/*Senior Designer*/}</p>
                     </div>
                 </div>
             </div>
@@ -67,7 +70,7 @@ export const TeachersTeam = (props) => {
                     <img src={img4} alt='...' className='team-img' />
                     <div className='caption'>
                     <h4>David Leonardo González M.</h4>
-                    <p>Profesor de Matemáticas</p>
+                    <p>Profesor de Matemáticas.<br/>Nivel Secundario</p>
                     </div>
                 </div>
             </div>
@@ -77,7 +80,7 @@ export const TeachersTeam = (props) => {
                     <img src={img1} alt='...' className='team-img' />
                     <div className='caption'>
                     <h4>Camila Micaela Quiroga R.</h4>
-                    <p>Profesora de Educación Primaria</p>
+                    <p>Profesora Nivel Primario</p>
                     </div>
                 </div>
             </div>
@@ -87,7 +90,7 @@ export const TeachersTeam = (props) => {
                     <img src={img6} alt='...' className='team-img' />
                     <div className='caption'>
                     <h4>María Celeste Ruiz</h4>
-                    <p>Profesora de Inglés</p>
+                    <p>Profesora de Inglés.<br/>Nivel Secundario</p>
                     </div>
                 </div>
             </div>
@@ -98,11 +101,45 @@ export const TeachersTeam = (props) => {
                     <img src={img8} alt='...' className='team-img' />
                     <div className='caption'>
                     <h4>Iris Aab</h4>
-                    <p>Tutora de Historia y Geografía</p>
+                    <p>Tutora de Historia.<br/>Nivel Secundario</p>
                     </div>
                 </div>
             </div>
-          </div>     
+          </div>
+          <div className='row'>
+            <div className='col-md-1 col-sm-6 team' style={{paddingLeft:"11%"}}></div>
+            <div key={`Karen Doe-1`} className='col-md-3 col-sm-6 team'> 
+                <div className='thumbnail'>
+                    {' '}
+                    <img src={img11} alt='...' className='team-img' />
+                    <div className='caption'>
+                    <h4>Laura Juárez</h4>
+                    <p>Profesora Nivel Primario</p>
+                    </div>
+                </div>
+            </div>
+            <div key={`Karen Doe-1`} className='col-md-3 col-sm-6 team'>
+                <div className='thumbnail'>
+                    {' '}
+                    <img src={img9} alt='...' className='team-img' />
+                    <div className='caption'>
+                    <h4>Anabel Lima</h4>
+                    <p>Profesora de Inglés.<br/>Nivel Primario</p>
+                    </div>
+                </div>
+            </div>
+            <div key={`Jane Doe-1`} className='col-md-3 col-sm-6 team'>
+                <div className='thumbnail'>
+                    {' '}
+                    <img src={img10} alt='...' className='team-img' />
+                    <div className='caption'>
+                    <h4>Matias Ezequiel Merlo</h4>
+                    <p>Licenciado en Ciencias Geológicas<br/>Diplomado en Formación Pedagógica<br/>Tutor de Geografía. Nivel Secundario</p>
+                    </div>
+                </div>
+            </div>
+            <div className='col-md-1 col-sm-6 team'></div>
+          </div>      
         </div>
       </div>
     )

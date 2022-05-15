@@ -11,7 +11,7 @@ export const Certification = (props) => {
                 <p>Nuestro contenido curricular está avalado y certificado por Royal Hollow Academy, institución acreditada en los Estados de Florida y Texas (EE.UU)<br/> <a href="https://royalhollow.com/" target="_blank" style={{color:"white"}}>https://royalhollow.com/</a></p>
               </div>
             </div>
-            <div className="col-xs-12 col-md-6" style={{textAlign:"center"}}>
+            <div className="col-xs-12 col-md-6" style={{ display: "flex", alignItems: "center", justifyContent: "center"}}>
                 {" "}
               <img src={img1} className="img-responsive logo" alt="" />{" "}
               

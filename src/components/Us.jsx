@@ -21,6 +21,10 @@ export const Us = (props) => {
             </div>
           </div>
         </div>
+        {/*<br></br>
+        <div className='col-md-12 section-title' style={{textAlign:"center"}}>
+          <h4 style={{color:"#33742c"}}>"Sembrando en el corazón de nuestros hijos"</h4>
+        </div>*/}
       </div>
     </div>
   );
