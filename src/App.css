@@ -320,6 +320,22 @@ label {
   background: #fff;
 }
 
+.tooltipNew {
+  background: #FF5500;
+  opacity: 0.85;
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+  padding: 4px 8px;
+  font-size: 13px;
+  border-radius: 4px;
+  display: inline;
+}
+
+.tooltipNew-hidden {
+  display: none;
+}
+
 /*Contents section*/
 #contents {
   padding: 100px 0;
@@ -879,6 +895,7 @@ a:focus,
 /* Us Section */
 #Nosotros {
   padding: 100px 0;
+  padding-bottom: 50px;
   background: #f6f6f6;
 }
 
@@ -974,6 +991,37 @@ a:focus,
 #fTeam .thumbnail .caption {
   padding: 10px 0 0;
   color: #888;
+}
+
+/*Mission and Vision section*/
+#Flags {
+  padding-bottom: 100px;
+  background: #f6f6f6;
+}
+
+#Flags .section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.flags {
+  margin: 10px;
+  width: 85px;
+  height: 85px;
+}
+
+@media (max-width: 1200px) {
+  .flags {
+    margin: 15px;
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (max-width: 768px) {
+  .flagContainer {
+    float: left;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=App.css.map */

@@ -7,7 +7,7 @@ import img6 from "../assets/img/EquipoDocentes/MariaRuiz2.jpeg"
 import img7 from "../assets/img/EquipoDocentes/EzequielChao2.jpeg"
 import img8 from "../assets/img/EquipoDocentes/IrisAab2.jpeg"
 import img9 from "../assets/img/EquipoDocentes/AnabelLima.jpeg"
-import img10 from "../assets/img/EquipoDocentes/MatiasMerlo.jpeg"
+import img10 from "../assets/img/EquipoDocentes/MartinFernandez3.png"
 import img11 from "../assets/img/EquipoDocentes/LauraJuarez.jpeg"
 
 export const TeachersTeam = (props) => {
@@ -133,8 +133,8 @@ export const TeachersTeam = (props) => {
                     {' '}
                     <img src={img10} alt='...' className='team-img' />
                     <div className='caption'>
-                    <h4>Matias Ezequiel Merlo</h4>
-                    <p>Licenciado en Ciencias Geológicas<br/>Diplomado en Formación Pedagógica<br/>Tutor de Geografía. Nivel Secundario</p>
+                    <h4>Ezequiel Martin Fernández</h4>
+                    <p>Licenciado en Geofísica.<br/>Profesor de Geografía.<br/> Nivel Secundario</p>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import emailjs from 'emailjs-com'
 
 const initialState = {
@@ -6,24 +6,37 @@ const initialState = {
   email: '',
   message: '',
 }
+
 export const Contact = (props) => {
-  const [{ from_name, email, message }, setState] = useState(initialState)
+  const [{ from_name, email, message }, setState] = useState(initialState);
+
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target
     setState((prevState) => ({ ...prevState, [name]: value }))
   }
+
+  const OpenClose = () => {
+    setIsOpen(!isOpen)
+    if(!isOpen){
+      setTimeout(() => {
+        setIsOpen(false)    
+      }, 1500)  
+    }
+  }
+
   const clearState = () => setState({ ...initialState })
 
   const handleSubmit = (e) => {
-    e.preventDefault()
+    e.preventDefault() 
     emailjs
       .sendForm(
         'service_n8yt0qi', 'template_lcfqavg', e.target, 'user_yAszrvWf30vOsrpPVYUfL'
       )
       .then(
         (result) => {
-          console.log(result.text)
+          OpenClose()
           clearState()
         },
         (error) => {
@@ -31,6 +44,7 @@ export const Contact = (props) => {
         }
       )
   }
+
   return (
     <div>
       <div id='contact'>
@@ -90,6 +104,9 @@ export const Contact = (props) => {
                 <button type='submit' className='btn btn-custom btn-lg'>
                   Enviar
                 </button>
+                <div className={`tooltipNew${isOpen?"":"-hidden"} `}>
+                  Mensaje enviado correctamente.
+                </div>
               </form>
             </div>
           </div>
