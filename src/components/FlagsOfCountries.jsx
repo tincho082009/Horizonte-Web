@@ -8,31 +8,49 @@ export const Flags = (props) => {
                     En todos los países dónde hay familias homeschoolers de habla hispana.
                 </p>
             </div>
-            <div className="row">
-                <div className='col-md-2 col-sm-0'></div>
-                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer'>
+            <div className="row primerFila"> 
+                <div className='col-md-1 col-sm-2 col-xs-6 flagContainer'style={{width:"auto"}}>
                     <i className="round-flag-icon round-flag-ar flags"></i>
+                    <div >Argentina</div>
                 </div>
-                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer'>
-                    <i className="round-flag-icon round-flag-ma flags"></i>
-                </div>
-                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer'>
-                    <i className="round-flag-icon round-flag-pa flags"></i>
-                </div>
-                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer'>
-                    <i className="round-flag-icon round-flag-ec flags"></i>
-                </div>
-                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer'> 
+                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer'style={{width:"auto"}}> 
                     <i className="round-flag-icon round-flag-mx flags"></i>
+                    <div >México</div>
+                </div> 
+                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer'style={{width:"auto"}}>
+                    <i className="round-flag-icon round-flag-ec flags"></i>
+                    <div >Ecuador</div>
                 </div>
-                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer'>
-                    <i className="round-flag-icon round-flag-pl flags"></i>
+                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer'style={{width:"auto"}}>
+                    <i className="round-flag-icon round-flag-pa flags"></i>
+                    <div>Panamá</div>
                 </div>
-                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer'>
-                    <i className="round-flag-icon round-flag-co flags"></i>
+                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer'style={{width:"auto"}}>
+                    <i className="round-flag-icon round-flag-id flags"></i>
+                    <div >Indonesia</div>
                 </div>
-                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer'>
+                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer'style={{width:"auto"}}>
+                    <i className="round-flag-icon round-flag-co flags"></i> 
+                    <div >Colombia</div>
+                </div>
+                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer' style={{width:"auto"}}>
                     <i className="round-flag-icon round-flag-do flags"></i>
+                    <div >República<br></br>Dominicana</div>
+                </div> 
+                
+            </div> 
+            <div className="row segundaFila" > 
+                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer'style={{width:"auto"}}>
+                    <i className="round-flag-icon round-flag-pr flags"></i> 
+                    <div>Puerto Rico</div>
+                </div>
+                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer'style={{width:"auto"}}>
+                    <i className="round-flag-icon round-flag-gw flags"></i>
+                    <div>Guinea-Bisáu</div>
+                </div>
+                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer'style={{width:"auto"}}>
+                    <i className="round-flag-icon round-flag-ma flags"></i>
+                    <div>Marruecos</div>
                 </div>
             </div>   
         </div>

@@ -14,6 +14,7 @@ import { Modality } from "./components/Modality";
 import { FamilyTeam } from "./components/FamilyTeam";
 import {TeachersTeam} from "./components/TeachersTeam";
 import { Flags } from "./components/FlagsOfCountries";
+import { Testimony } from "./components/Testimony";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -40,6 +41,7 @@ const App = () => {
       <FamilyTeam />
       <FoundingTeam data={landingPageData.Team} />
       <TeachersTeam data={landingPageData.Team}/>
+      <Testimony/> 
       <Contact data={landingPageData.Contact} />
     </div>
   );
