@@ -1,6 +1,10 @@
 import { useEffect } from 'react';
-import img1 from "./../assets/img/intro-bg1.jpg"
-import img2 from "./../assets/img/intro-bg2.jpg"
+/*import img1 from "./../assets/img/intro-bg1.jpg"
+import img2 from "./../assets/img/intro-bg2.jpg"*/
+import img1 from "./../assets/img/intro-bg3.png"
+import img2 from "./../assets/img/intro-bg4.png"
+import img3 from "./../assets/img/intro-bg5.png"
+import img4 from "./../assets/img/intro-bg6.png"
 
 export const Header = (props) => {
   useEffect(()=>{
@@ -19,16 +23,18 @@ export const Header = (props) => {
           {/*<div className='containerImage'><img  src={pic1} /></div>*/}
           <div className='containerImage'><img src={img1} /></div>
           <div className='containerImage'><img src={img2} /></div>
+          <div className='containerImage'><img src={img3} /></div>
+          <div className='containerImage'><img src={img4} /></div>
         </div>
         <div className='container'>
             <div className='row'>
-              <div className='col-md-8 textoIntro'>
+              {/*<div className='col-md-8 textoIntro'>
                 <h1>
                 Horizonte
                 <span></span>
                 </h1>
                 <p>Plataforma Educativa</p>
-              </div>
+              </div>*/}
             </div>
         </div>
         {/*<a

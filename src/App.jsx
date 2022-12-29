@@ -5,7 +5,6 @@ import { Us } from "./components/Us";
 import {MissionVision} from "./components/Mission&Vision";
 import { FoundingTeam } from "./components/FoundingTeam";
 import { Contact } from "./components/contact";
-import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import { Certification } from "./components/Certification";
@@ -15,6 +14,8 @@ import { FamilyTeam } from "./components/FamilyTeam";
 import {TeachersTeam} from "./components/TeachersTeam";
 import { Flags } from "./components/FlagsOfCountries";
 import { Testimony } from "./components/Testimony";
+import { MyGallery } from "./components/MyGallery";
+import { CourseTeachers } from "./components/CourseTeachers";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -22,10 +23,6 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 const App = () => {
-  const [landingPageData, setLandingPageData] = useState({});
-  useEffect(() => {
-    setLandingPageData(JsonData);
-  }, []);
 
   return (
     <div>
@@ -39,10 +36,12 @@ const App = () => {
       <Contents />
       <Modality />
       <FamilyTeam />
-      <FoundingTeam data={landingPageData.Team} />
-      <TeachersTeam data={landingPageData.Team}/>
-      <Testimony/> 
-      <Contact data={landingPageData.Contact} />
+      <FoundingTeam />
+      <TeachersTeam />
+      <CourseTeachers />
+      <Testimony/>
+      <MyGallery />
+      <Contact />
     </div>
   );
 };

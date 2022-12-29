@@ -32,7 +32,7 @@ export const TeachersTeam = (props) => {
                     </div>
                  </div>
             </div>
-            <div key={`John Doe-1`} className='col-md-3 col-sm-6 team'>
+            <div key={`John Doe-2`} className='col-md-3 col-sm-6 team'>
                 <div className='thumbnail'>
                     {' '}
                     <img src={img5} alt='...' className='team-img' />
@@ -42,7 +42,7 @@ export const TeachersTeam = (props) => {
                     </div>
                 </div>
             </div>
-            <div key={`Mike Doe-1`} className='col-md-3 col-sm-6 team'>
+            <div key={`Mike Doe-3`} className='col-md-3 col-sm-6 team'>
                 <div className='thumbnail'>
                     {' '}
                     <img src={img2} alt='...' className='team-img' />
@@ -52,7 +52,7 @@ export const TeachersTeam = (props) => {
                     </div>
                 </div>
             </div>
-            <div key={`Jane Doe-1`} className='col-md-3 col-sm-6 team'>
+            <div key={`Jane Doe-4`} className='col-md-3 col-sm-6 team'>
                 <div className='thumbnail'>
                     {' '}
                     <img src={img3} alt='...' className='team-img' />
@@ -64,7 +64,7 @@ export const TeachersTeam = (props) => {
             </div>
         </div>
         <div className='row'>
-            <div key={`Karen Doe-1`} className='col-md-3 col-sm-6 team'>
+            <div key={`Karen Doe-5`} className='col-md-3 col-sm-6 team'>
                 <div className='thumbnail'>
                     {' '}
                     <img src={img4} alt='...' className='team-img' />
@@ -74,7 +74,7 @@ export const TeachersTeam = (props) => {
                     </div>
                 </div>
             </div>
-            <div key={`Karen Doe-1`} className='col-md-3 col-sm-6 team'>
+            {/*<div key={`Karen Doe-6`} className='col-md-3 col-sm-6 team'>
                 <div className='thumbnail'>
                     {' '}
                     <img src={img1} alt='...' className='team-img' />
@@ -83,8 +83,18 @@ export const TeachersTeam = (props) => {
                     <p>Profesora Nivel Primario</p>
                     </div>
                 </div>
+            </div>*/}
+            <div key={`Karen Doe-9`} className='col-md-3 col-sm-6 team'> 
+                <div className='thumbnail'>
+                    {' '}
+                    <img src={img11} alt='...' className='team-img' />
+                    <div className='caption'>
+                    <h4>Laura Juárez</h4>
+                    <p>Profesora Nivel Primario</p>
+                    </div>
+                </div>
             </div>
-            <div key={`Jane Doe-1`} className='col-md-3 col-sm-6 team'>
+            <div key={`Jane Doe-7`} className='col-md-3 col-sm-6 team'>
                 <div className='thumbnail'>
                     {' '}
                     <img src={img6} alt='...' className='team-img' />
@@ -95,7 +105,7 @@ export const TeachersTeam = (props) => {
                 </div>
             </div>
             
-            <div key={`Jane-1`} className='col-md-3 col-sm-6 team'>
+            <div key={`Jane-8`} className='col-md-3 col-sm-6 team'>
                 <div className='thumbnail'>
                     {' '}
                     <img src={img8} alt='...' className='team-img' />
@@ -107,18 +117,9 @@ export const TeachersTeam = (props) => {
             </div>
           </div>
           <div className='row'>
-            <div className='col-md-1 col-sm-6 team' style={{paddingLeft:"11%"}}></div>
-            <div key={`Karen Doe-1`} className='col-md-3 col-sm-6 team'> 
-                <div className='thumbnail'>
-                    {' '}
-                    <img src={img11} alt='...' className='team-img' />
-                    <div className='caption'>
-                    <h4>Laura Juárez</h4>
-                    <p>Profesora Nivel Primario</p>
-                    </div>
-                </div>
-            </div>
-            <div key={`Karen Doe-1`} className='col-md-3 col-sm-6 team'>
+            <div className='col-md-1 col-sm-6 team' style={{paddingLeft:"24%"}}></div>
+            
+            <div key={`Karen Doe-10`} className='col-md-3 col-sm-6 team'>
                 <div className='thumbnail'>
                     {' '}
                     <img src={img9} alt='...' className='team-img' />
@@ -128,7 +129,7 @@ export const TeachersTeam = (props) => {
                     </div>
                 </div>
             </div>
-            <div key={`Jane Doe-1`} className='col-md-3 col-sm-6 team'>
+            <div key={`Jane Doe-11`} className='col-md-3 col-sm-6 team'>
                 <div className='thumbnail'>
                     {' '}
                     <img src={img10} alt='...' className='team-img' />

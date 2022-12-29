@@ -1,4 +1,4 @@
-import img1 from "../assets/img/us.png"
+import img1 from "../assets/img/us-2.jpg"
 
 export const Us = (props) => {
   return (

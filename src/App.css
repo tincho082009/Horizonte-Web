@@ -100,6 +100,10 @@ hr {
 #contents,
 #modality,
 #EquipoDeFamilias,
+#courseTeachers,
+#Testimony,
+#Gallery,
+#Flags,
 #fTeam,
 #team,
 #contact,
@@ -668,7 +672,7 @@ header .intro-text {
 
 .img-menu-top {
   position: absolute;
-  width: 200px;
+  width: 220px;
   height: auto;
   top: 0;
   left: 50px;
@@ -742,7 +746,7 @@ header .intro-text {
   padding: 8px 5px;
   border-radius: 3px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  margin: 9px 20px 0;
+  margin: 9px 10px 0;
   color: black;
   background-color: #fff;
 }
@@ -754,7 +758,7 @@ header .intro-text {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #60B071 0%, #9add6f 100%);
+  background: linear-gradient(to right, #60b071 0%, #9add6f 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -778,7 +782,7 @@ header .intro-text {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #60B071 0%, #9add6f 100%) !important;
+  background: linear-gradient(to right, #60b071 0%, #9add6f 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -811,7 +815,7 @@ header .intro-text {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: #FF5500;
+  background: #ff5500;
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -828,7 +832,7 @@ header .intro-text {
   text-transform: uppercase;
   color: #fff;
   background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #9add6f 0%, #60B071 100%);
+  background-image: linear-gradient(to right, #9add6f 0%, #60b071 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -1006,11 +1010,11 @@ a:focus,
 }
 
 .primerFila {
-  margin-left: 15%;
+  margin-left: 9%;
 }
 
 .segundaFila {
-  margin-left: 35%;
+  margin-left: 19%;
 }
 
 .flags {
@@ -1019,20 +1023,9 @@ a:focus,
   height: 65px;
 }
 
-/*@media (max-width: 1200px){
-    .flags{
-        margin: 15px;
-        width: 80px;
-        height: 80px;
-    }
-}*/
 @media (max-width: 992px) {
-  .primerFila {
-    margin-left: 10%;
-  }
-
   .segundaFila {
-    margin-left: 10%;
+    margin-left: 9%;
   }
 }
 @media (max-width: 768px) {
@@ -1047,9 +1040,8 @@ a:focus,
   }
 }
 #Testimony {
-  padding: 100px 0 60px;
-  background: #a3c734;
-  color: rgba(255, 255, 255, 0.75);
+  padding: 100px 0 10px;
+  background: #f1f1f1;
 }
 
 #Testimony .section-title {
@@ -1057,19 +1049,12 @@ a:focus,
   margin-bottom: 30px;
 }
 
-#Testimony .section-title h2 {
-  color: #fff;
-}
-
-#Testimony .section-title h2::after {
-  background: rgba(255, 255, 255, 0.3);
-}
-
 .testimonial {
   margin: 0 20px 40px;
 }
 
 .testimonial .itemTestimonio {
+  vertical-align: middle;
   width: 300px;
   margin: 0 20px 0 20px;
   display: inline-block;
@@ -1126,7 +1111,7 @@ a:focus,
 .testimonial .description {
   font-size: 15px;
   font-style: italic;
-  color: #8a8a8a;
+  color: #747474;
   line-height: 23px;
   margin: 0;
   text-align: justify;
@@ -1146,6 +1131,182 @@ a:focus,
   display: block;
   font-size: 14px;
   color: #ff4242;
+}
+
+#MyGallery {
+  padding: 100px 0;
+}
+
+/*.cuerpoGaleria {
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 32.7%;
+  height: 400px;
+  position: relative;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+
+  @media screen and (max-width: 1200px) {
+    width: 49%;
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
+
+  &:before {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.65) 100%
+    );
+  }
+
+  img {
+    width: 100%;
+  }
+
+  div {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    color: #fff;
+    padding: 0 10 0 10;
+    text-align: center;
+    h2 {
+      font-size: 51.5px;
+      color: #fff;
+      line-height: 50px !important;
+      text-shadow: 0 0.5px 0.5px rgb(0 0 0 / 80%);
+      text-transform: uppercase;
+      margin: 0 0 0.5rem;
+    }
+    p {
+      margin: 0;
+      text-shadow: 0 0.5px 0.5px rgb(0 0 0 / 80%);
+    }
+  }
+}
+*/
+/* courseTeachers Section */
+#courseTeachers {
+  padding: 100px 0 60px;
+  background: #a3c734;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#courseTeachers .section-title {
+  margin-bottom: 40px;
+}
+
+#courseTeachers .section-title p {
+  font-size: 16px;
+}
+
+#courseTeachers .section-title h2 {
+  margin-left: 20px;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+#courseTeachers .section-title h2::after {
+  position: absolute;
+  content: "";
+  background: rgba(255, 255, 255, 0.3);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  left: 30px;
+}
+
+#courseTeachers .teacherCard {
+  border-radius: 5px;
+  box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+  padding: 30px;
+  margin: 25px;
+  background-color: #f6f6f6;
+}
+
+#courseTeachers img {
+  border-radius: 5px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+}
+
+#courseTeachers .bottomContainer {
+  margin-top: 20;
+}
+
+#courseTeachers .bottomContainer h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #525252;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin: 0 0 5px 0;
+}
+
+#courseTeachers .bottomContainer p {
+  color: #888;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 993px) and (min-width: 450px) {
+  .row1-container {
+    margin-left: 15%;
+  }
+
+  .row2-container {
+    margin-left: 15%;
+  }
+
+  .teacherCard {
+    text-align: center;
+    width: 75%;
+  }
+
+  #courseTeachers .teacherCard {
+    padding: 30px;
+    margin: 25px;
+  }
+}
+@media (min-width: 993px) {
+  .row1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .row2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-down {
+    position: relative;
+    top: 150px;
+  }
+
+  .teacherCard {
+    width: 25%;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=App.css.map */

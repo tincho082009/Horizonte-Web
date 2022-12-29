@@ -11,15 +11,15 @@ export const Contents = (props) => {
                 </p>
               </div>
               <div id="exTab1">	
-                <ul  class="nav nav-pills">
-                  <li class="active">
+                <ul  className="nav nav-pills">
+                  <li className="active">
                     <a  href="#1a" data-toggle="tab">Primario: 1º a 7º</a>
                   </li>
                   <li><a href="#2a" data-toggle="tab">Secundario: 8º a 12º</a>
                   </li>
                 </ul>
-                <div class="tab-content clearfix">
-                  <div class="tab-pane active" id="1a">
+                <div className="tab-content clearfix">
+                  <div className="tab-pane active" id="1a">
                     <div className="list-style">
                       <div className="col-lg-12 col-sm-12 col-xs-12">
                         <ul>
@@ -32,7 +32,7 @@ export const Contents = (props) => {
                       </div>
                     </div>
                   </div>
-                  <div class="tab-pane" id="2a">
+                  <div className="tab-pane" id="2a">
                     <div className="list-style">
                       <div className="col-lg-12 col-sm-12 col-xs-12">
                         <ul>

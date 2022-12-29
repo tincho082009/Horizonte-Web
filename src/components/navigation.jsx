@@ -11,9 +11,17 @@ export const Navigation = (props) => {
       document.getElementsByClassName("page-scroll")[1].style.boxShadow = "none";
       document.getElementsByClassName("page-scroll")[2].style.boxShadow = "none";
       document.getElementsByClassName("page-scroll")[3].style.boxShadow = "none";
-      document.getElementsByClassName("page-scroll")[5].style.boxShadow = "none";
+      document.getElementsByClassName("page-scroll")[4].style.boxShadow = "none";
+      document.getElementsByClassName("page-scroll")[6].style.boxShadow = "none";
+
       setFlag("bot")
     } else {
+      document.getElementsByClassName("page-scroll")[1].style.boxShadow = "0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)";
+      document.getElementsByClassName("page-scroll")[2].style.boxShadow = "0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)";
+      document.getElementsByClassName("page-scroll")[3].style.boxShadow = "0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)";
+      document.getElementsByClassName("page-scroll")[4].style.boxShadow = "0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)";
+      document.getElementsByClassName("page-scroll")[6].style.boxShadow = "0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)";
+
       setFlag("top")
     }
   }
@@ -56,12 +64,17 @@ export const Navigation = (props) => {
                 Oferta académica
               </a>
             </li>
-            <li >
+            <li>
               <a href='#EquipoDeFamilias' className='page-scroll'>
                 Nuestro equipo
               </a>
             </li>
-             <li >
+            <li>
+              <a href='#Testimony' className='page-scroll'>
+                Testimonios
+              </a>
+            </li>
+             <li>
               <a href='https://plataforma.educarhorizonte.com.ar/' target="_blank" className='page-scroll' style={{color: "#fff", backgroundColor: "#FF5500"}}>
                 Ingresar
               </a>

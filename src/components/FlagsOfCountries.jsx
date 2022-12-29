@@ -34,16 +34,23 @@ export const Flags = (props) => {
                     <div >Colombia</div>
                 </div>
                 <div className='col-md-1 col-sm-3 col-xs-6 flagContainer' style={{width:"auto"}}>
+                    <i className="round-flag-icon round-flag-br flags"></i>
+                    <div>Brasil</div>
+                </div> 
+                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer' style={{width:"auto"}}>
                     <i className="round-flag-icon round-flag-do flags"></i>
                     <div >República<br></br>Dominicana</div>
                 </div> 
-                
             </div> 
-            <div className="row segundaFila" > 
+            <div className="row segundaFila" >
                 <div className='col-md-1 col-sm-3 col-xs-6 flagContainer'style={{width:"auto"}}>
                     <i className="round-flag-icon round-flag-pr flags"></i> 
                     <div>Puerto Rico</div>
                 </div>
+                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer' style={{width:"auto"}}>
+                    <i className="round-flag-icon round-flag-uy flags"></i>
+                    <div>Uruguay</div>
+                </div>  
                 <div className='col-md-1 col-sm-3 col-xs-6 flagContainer'style={{width:"auto"}}>
                     <i className="round-flag-icon round-flag-gw flags"></i>
                     <div>Guinea-Bisáu</div>
@@ -52,6 +59,14 @@ export const Flags = (props) => {
                     <i className="round-flag-icon round-flag-ma flags"></i>
                     <div>Marruecos</div>
                 </div>
+                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer' style={{width:"auto"}}>
+                    <i className="round-flag-icon round-flag-py flags"></i>
+                    <div>Paraguay</div>
+                </div> 
+                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer' style={{width:"auto"}}>
+                    <i className="round-flag-icon round-flag-es flags"></i>
+                    <div>España</div>
+                </div> 
             </div>   
         </div>
     </div>
