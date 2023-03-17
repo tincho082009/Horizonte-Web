@@ -30,7 +30,7 @@ export const FoundingTeam = (props) => {
                 {' '}
                 <img src={img3} alt='...' className='team-img' />
                 <div className='caption'>
-                    <h4>Ezequiel Chao y Ana Kuchen</h4>
+                    <h4>Ezequiel Chao</h4>
                     {/*<p>Senior Designer</p>*/}
                 </div>
             </div>

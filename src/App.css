@@ -286,6 +286,12 @@ label {
   color: #fff;
 }
 
+#contact .contact-item a {
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: #fff;
+}
+
 #contact .contact-item span {
   color: white;
   margin-bottom: 5px;
@@ -325,7 +331,7 @@ label {
 }
 
 .tooltipNew {
-  background: #FF5500;
+  background: #ff5500;
   opacity: 0.85;
   color: white;
   font-weight: bold;
@@ -1014,7 +1020,7 @@ a:focus,
 }
 
 .segundaFila {
-  margin-left: 19%;
+  margin-left: 14%;
 }
 
 .flags {
@@ -1056,6 +1062,13 @@ a:focus,
 .testimonial .itemTestimonio {
   vertical-align: middle;
   width: 300px;
+  margin: 0 20px 0 20px;
+  display: inline-block;
+}
+
+.testimonial .itemTestimonioLong {
+  vertical-align: middle;
+  width: 600px;
   margin: 0 20px 0 20px;
   display: inline-block;
 }
@@ -1133,6 +1146,11 @@ a:focus,
   color: #ff4242;
 }
 
+@media (max-width: 670px) {
+  .testimonial .itemTestimonioLong {
+    width: 300px;
+  }
+}
 #MyGallery {
   padding: 100px 0;
 }
@@ -1202,7 +1220,7 @@ a:focus,
 */
 /* courseTeachers Section */
 #courseTeachers {
-  padding: 100px 0 60px;
+  padding: 100px 0 100px;
   background: #a3c734;
   color: rgba(255, 255, 255, 0.75);
 }
@@ -1293,6 +1311,7 @@ a:focus,
   }
 
   .row2-container {
+    margin-top: 6%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1300,7 +1319,7 @@ a:focus,
 
   .card-down {
     position: relative;
-    top: 150px;
+    top: 100px;
   }
 
   .teacherCard {

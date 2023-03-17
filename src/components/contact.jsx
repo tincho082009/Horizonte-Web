@@ -127,7 +127,8 @@ export const Contact = (props) => {
                 </span>{' '}
                 Yanet Medina
                 <br/>Relaciones Públicas e informes
-                <br/><a href='tel:+54 9 2665 11-3630' style={{color:"white"}}><p>+54 9 2665 11-3630</p></a>
+                <br/><a href='tel:+54 9 2665 11-3630' style={{color:"white"}}>+54 9 2665 11-3630</a>
+                <br/><a href='tel:+54 9 2665 039879' style={{color:"white"}}>+54 9 2665 039879</a>
               </p>
             </div>
             <div className='contact-item'>

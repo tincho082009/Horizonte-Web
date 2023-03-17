@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 /*import img1 from "./../assets/img/intro-bg1.jpg"
 import img2 from "./../assets/img/intro-bg2.jpg"*/
-import img1 from "./../assets/img/intro-bg3.png"
-import img2 from "./../assets/img/intro-bg4.png"
+import img1 from "./../assets/img/intro-bg7.png"
+import img2 from "./../assets/img/intro-bg8.png"
 import img3 from "./../assets/img/intro-bg5.png"
 import img4 from "./../assets/img/intro-bg6.png"
 

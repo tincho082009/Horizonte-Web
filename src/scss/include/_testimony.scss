@@ -19,6 +19,13 @@
     display: inline-block;
 }
 
+.testimonial .itemTestimonioLong {
+    vertical-align: middle;
+    width: 600px;
+    margin: 0 20px 0 20px;
+    display: inline-block;
+}
+
 .testimonial .testimonial-content{
     padding: 35px 25px 35px 50px;
     margin-bottom: 35px;
@@ -91,3 +98,9 @@
     font-size: 14px;
     color: #ff4242;
 }
+
+@media (max-width: 670px) {
+    .testimonial .itemTestimonioLong {
+        width: 300px;
+    }
+  }

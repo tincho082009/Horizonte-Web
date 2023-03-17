@@ -67,6 +67,10 @@ export const Flags = (props) => {
                     <i className="round-flag-icon round-flag-es flags"></i>
                     <div>España</div>
                 </div> 
+                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer' style={{width:"auto"}}>
+                    <i className="round-flag-icon round-flag-il flags"></i>
+                    <div>Israel</div>
+                </div> 
             </div>   
         </div>
     </div>

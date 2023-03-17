@@ -5,7 +5,7 @@ import img4 from "./../assets/img/Galeria/EncuentroSocial.jpeg";
 import img5 from "./../assets/img/Galeria/EncuentroPadres.jpeg";
 import img6 from "./../assets/img/Galeria/AmigosDelPlaneta.jpeg";
 import img7 from "./../assets/img/Galeria/DonPasto.jpeg";
-import img8 from "./../assets/img/Galeria/Ninios1.jpeg";
+import img8 from "./../assets/img/Galeria/Ninios5.jpeg";
 import img9 from "./../assets/img/Galeria/Ninios2.jpeg";
 import img10 from "./../assets/img/Galeria/Ninios3.jpeg";
 
@@ -41,7 +41,7 @@ const images = [
   },
   {
     src: img8,
-    width: 440,
+    width: 422,
     height: 500,
     caption: "Trabajos de alumnos",
   },
@@ -49,7 +49,7 @@ const images = [
     src: img5,
     width: 445,
     height: 500,
-    caption: "Reunion de padres",
+    caption: "Interacción zoom con padres de familia",
   },
 
   {
@@ -68,7 +68,7 @@ const images = [
     src: img6,
     width: 281,
     height: 500,
-    caption: "Encuentro: Amigos del Planeta",
+    caption: "Trabajos de alumnos: Amigos del Planeta",
   },
   {
     src: img3,
@@ -97,14 +97,20 @@ export const MyGallery = (props) => {
   const handleMoveNext = () => setIndex(nextIndex);
 
   return (
-    <div id="MyGallery" className="text-center">
+    <div id="MyGallery"  className="text-center">
       <div className="container">
         <div className="section-title">
           <h2>Galeria</h2>
           <p>
-            Encuentros Virtuales. Fomentamos un espacio social donde nuestros
+            <b>Encuentros Virtuales:</b> Fomentamos un espacio social donde nuestros
             chicos se conocen con otros chicos de otros países y exponen sus
-            ideas
+            ideas.
+            <br />
+            <b>Talleres:</b> Arte y pintura nivel 1 y 2, Repostería nivel 1 y 2,
+            Aprendiendo a Aprender, Periodismo nivel 1 y 2, <br />Introducción a la
+            programación nivel 1, Diseño página web.
+            <br />
+            <b>Interacción zoom con padres de familia.</b>
           </p>
         </div>
         <Gallery
