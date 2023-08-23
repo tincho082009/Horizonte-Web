@@ -407,7 +407,7 @@ label {
 /*Equipo de familias*/
 #EquipoDeFamilias {
   padding: 100px 0;
-  background: #a3c734;
+  background: #ff661a;
   color: #fff;
 }
 
@@ -821,7 +821,7 @@ header .intro-text {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: #ff5500;
+  background: #FF5500;
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -991,6 +991,7 @@ a:focus,
 
 #fTeam .team-img {
   width: 240px;
+  box-shadow: 5px 5px #FF5500;
 }
 
 #fTeam .thumbnail {
@@ -1016,11 +1017,11 @@ a:focus,
 }
 
 .primerFila {
-  margin-left: 9%;
+  margin-left: 5%;
 }
 
 .segundaFila {
-  margin-left: 14%;
+  margin-left: 10%;
 }
 
 .flags {
@@ -1031,7 +1032,7 @@ a:focus,
 
 @media (max-width: 992px) {
   .segundaFila {
-    margin-left: 9%;
+    margin-left: 5%;
   }
 }
 @media (max-width: 768px) {
@@ -1319,7 +1320,7 @@ a:focus,
 
   .card-down {
     position: relative;
-    top: 100px;
+    top: 250px;
   }
 
   .teacherCard {

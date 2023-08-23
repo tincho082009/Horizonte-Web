@@ -1,10 +1,11 @@
 import { useEffect } from 'react';
-/*import img1 from "./../assets/img/intro-bg1.jpg"
-import img2 from "./../assets/img/intro-bg2.jpg"*/
-import img1 from "./../assets/img/intro-bg7.png"
-import img2 from "./../assets/img/intro-bg8.png"
-import img3 from "./../assets/img/intro-bg5.png"
-import img4 from "./../assets/img/intro-bg6.png"
+import img1 from "./../assets/img/A.png"
+import img2 from "./../assets/img/B.png"
+import img3 from "./../assets/img/C.png"
+import img4 from "./../assets/img/D.png"
+import img5 from "./../assets/img/E.png"
+import img6 from "./../assets/img/F.png"
+import img7 from "./../assets/img/G.png"
 
 export const Header = (props) => {
   useEffect(()=>{
@@ -25,6 +26,9 @@ export const Header = (props) => {
           <div className='containerImage'><img src={img2} /></div>
           <div className='containerImage'><img src={img3} /></div>
           <div className='containerImage'><img src={img4} /></div>
+          <div className='containerImage'><img src={img5} /></div>
+          <div className='containerImage'><img src={img6} /></div>
+          <div className='containerImage'><img src={img7} /></div>
         </div>
         <div className='container'>
             <div className='row'>

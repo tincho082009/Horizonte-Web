@@ -2,8 +2,7 @@ import img1 from "./../assets/img/EquipoTalleres/MicaTole.jpeg";
 import img2 from "./../assets/img/EquipoTalleres/GladisGraneros1.jpeg";
 import img3 from "./../assets/img/EquipoTalleres/NatiFernandez1.jpeg";
 import img4 from "./../assets/img/EquipoTalleres/MicaelMerlo1.jpeg";
-import img5 from "./../assets/img/EquipoTalleres/JorgeGatti2.png"
-import img6 from "./../assets/img/EquipoTalleres/JuanBascu.jpeg"
+import img6 from "./../assets/img/EquipoTalleres/JuanBascu.jpeg";
 
 export const CourseTeachers = (props) => {
   return (
@@ -40,7 +39,6 @@ export const CourseTeachers = (props) => {
                   <p>Técnica en elaboración Pasteleria y mesa dulce</p>
                 </div>
               </div>
-              
             </div>
             <div class="row2-container">
               <div className="teacherCard">
@@ -50,20 +48,13 @@ export const CourseTeachers = (props) => {
                   <p>Periodista Universitario</p>
                 </div>
               </div>
-              <div className="teacherCard card-down">
-                <img src={img5} />
-                <div class="bottomContainer">
-                  <h2>Jorge Ariel Gatti</h2>
-                  <p>Diseño de páginas web</p>
-                </div>
-              </div>
-              <div className="teacherCard">
+              {/*<div className="teacherCard">
                 <img src={img6} />
                 <div class="bottomContainer">
                   <h2>Juan Bascuñan</h2>
                   <p>Programación</p>
                 </div>
-              </div>
+               </div>*/}
             </div>
           </div>
         </div>

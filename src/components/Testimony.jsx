@@ -65,6 +65,7 @@ export const Testimony = (props) => {
                           display: "inline-block",
                           margin: "0 8px",
                           background: "#FF5500",
+                          //background: "#33742c"
                         }}
                         aria-label={`Selected: ${label} ${index + 1}`}
                         title={`Selected: ${label} ${index + 1}`}
@@ -74,7 +75,8 @@ export const Testimony = (props) => {
                   return (
                     <li
                       style={{
-                        background: "#ff884d",
+                        background: "#ff884d", //ORIGINAL
+                        //background: "#4bab41",
                         borderRadius: 20,
                         width: 10,
                         height: 10,

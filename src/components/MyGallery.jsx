@@ -100,7 +100,7 @@ export const MyGallery = (props) => {
     <div id="MyGallery"  className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Galeria</h2>
+          <h2>Galería</h2>
           <p>
             <b>Encuentros Virtuales:</b> Fomentamos un espacio social donde nuestros
             chicos se conocen con otros chicos de otros países y exponen sus

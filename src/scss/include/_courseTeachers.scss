@@ -1,8 +1,8 @@
 /* courseTeachers Section */
 #courseTeachers {
   padding: 100px 0 100px;
-  background: #a3c734;
-  //background: linear-gradient(to right, #9add6f 0%, #60B071 100%);
+  background: #a3c734;   //COLOR ORIGINAL
+  //background: #ff661a; //COLOR SECUNDARIO
   color: rgba(255, 255, 255, 0.75);
 }
 #courseTeachers .section-title {
@@ -94,7 +94,7 @@
   }
   .card-down {
     position: relative;
-    top: 100px;
+    top: 250px;
   }
   .teacherCard {
     width: 25%;

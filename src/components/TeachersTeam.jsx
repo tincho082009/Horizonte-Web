@@ -139,7 +139,7 @@ export const TeachersTeam = (props) => {
               <div className="caption">
                 <h4>Matias David Aab {/*Joe Doe*/}</h4>
                 <p>
-                  Profesor de Biología.
+                  Tutor de Biología.
                   <br />
                   Nivel Secundario {/*Senior Designer*/}
                 </p>
