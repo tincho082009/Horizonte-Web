@@ -6,6 +6,10 @@ import img4 from "./../assets/img/D.png"
 import img5 from "./../assets/img/E.png"
 import img6 from "./../assets/img/F.png"
 import img7 from "./../assets/img/G.png"
+import img8 from "./../assets/img/H.png"
+import img9 from "./../assets/img/I.png"
+import img10 from "./../assets/img/J.png"
+import img11 from "./../assets/img/K.png"
 
 export const Header = (props) => {
   useEffect(()=>{
@@ -29,6 +33,10 @@ export const Header = (props) => {
           <div className='containerImage'><img src={img5} /></div>
           <div className='containerImage'><img src={img6} /></div>
           <div className='containerImage'><img src={img7} /></div>
+          <div className='containerImage'><img src={img8} /></div>
+          <div className='containerImage'><img src={img9} /></div>
+          <div className='containerImage'><img src={img10} /></div>
+          <div className='containerImage'><img src={img11} /></div>
         </div>
         <div className='container'>
             <div className='row'>
