@@ -39,11 +39,15 @@ export const Flags = (props) => {
                 </div> 
                 <div className='col-md-1 col-sm-3 col-xs-6 flagContainer' style={{width:"auto"}}>
                     <i className="round-flag-icon round-flag-do flags"></i>
-                    <div >República<br></br>Dominicana</div>
+                    <div>República<br></br>Dominicana</div>
                 </div> 
                 <div className='col-md-1 col-sm-3 col-xs-6 flagContainer' style={{width:"auto"}}>
                     <i className="round-flag-icon round-flag-ni flags"></i>
-                    <div >Nicaragua</div>
+                    <div>Nicaragua</div>
+                </div> 
+                <div className='col-md-1 col-sm-3 col-xs-6 flagContainer' style={{width:"auto"}}>
+                    <i className="round-flag-icon round-flag-my flags"></i>
+                    <div>Malasia</div>
                 </div> 
             </div> 
             <div className="row segundaFila" >

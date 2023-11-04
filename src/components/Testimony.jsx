@@ -179,7 +179,7 @@ export const Testimony = (props) => {
                         así nosotros ayudar a otros también.
                       </p>
                     </div>
-                    <h3 class="title">Familia Di paolo</h3>
+                    <h3 class="title">Familia De paolo</h3>
                     {/*<span class="post">Web Developer</span>*/}
                   </div>
                   <div className="itemTestimonio">

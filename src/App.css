@@ -99,6 +99,7 @@ hr {
 #Certificacion,
 #contents,
 #modality,
+#graduates,
 #EquipoDeFamilias,
 #courseTeachers,
 #Testimony,
@@ -1017,7 +1018,7 @@ a:focus,
 }
 
 .primerFila {
-  margin-left: 5%;
+  margin-left: 0%;
 }
 
 .segundaFila {
@@ -1327,6 +1328,10 @@ a:focus,
     width: 25%;
     text-align: center;
   }
+}
+#Graduates {
+  background: #a3c734;
+  color: rgba(255, 255, 255, 0.75);
 }
 
 /*# sourceMappingURL=App.css.map */
