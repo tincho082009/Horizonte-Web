@@ -1,6 +1,6 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 export const Testimony = (props) => {
   return (
@@ -34,7 +34,10 @@ export const Testimony = (props) => {
                       left: 15,
                     }}
                   >
-                    <FaChevronLeft fontSize={25} className="w-9 h-9 text-white" />
+                    <FaChevronLeft
+                      fontSize={25}
+                      className="w-9 h-9 text-white"
+                    />
                   </div>
                 )}
                 renderArrowNext={(onClickHandler, hasNext, label) => (
@@ -51,7 +54,10 @@ export const Testimony = (props) => {
                       right: 15,
                     }}
                   >
-                     <FaChevronRight fontSize={25} className="w-9 h-9 text-white" />
+                    <FaChevronRight
+                      fontSize={25}
+                      className="w-9 h-9 text-white"
+                    />
                   </div>
                 )}
                 renderIndicator={(onClickHandler, isSelected, index, label) => {
@@ -232,6 +238,102 @@ export const Testimony = (props) => {
                       </p>
                     </div>
                     <h3 class="title">Alejandro, Contador Público Nacional.</h3>
+                  </div>
+                  <div className="itemTestimonio">
+                    <div class="testimonial-content">
+                      <div class="testimonial-icon">
+                        <i class="fa fa-quote-left"></i>
+                      </div>
+                      <p class="description">
+                        ¡Felicitaciones, Horizonte! Hemos aprendido mucho con
+                        ustedes. Realizan una labor maravillosa, y se nota la
+                        dedicación que le ponen. Que sigan acompañando a cada
+                        familia en este hermoso camino de la educación en casa
+                        durante muchos años más.
+                      </p>
+                    </div>
+                    <h3 class="title">Familia González.</h3>
+                  </div>
+                </div>
+                <div class="testimonial">
+                  <div className="itemTestimonio">
+                    <div class="testimonial-content">
+                      <div class="testimonial-icon">
+                        <i class="fa fa-quote-left"></i>
+                      </div>
+                      <p class="description">
+                        ¡Es un placer pertenecer a esta gran familia de
+                        Horizonte! ¡Agradecemos el constante acompañamiento y la
+                        disposición que siempre nos brindan! Sigamos avanzando
+                        en este bien común de sembrar en nuestros hijos.
+                        ¡Felicidades a todo el equipo de Horizonte!
+                      </p>
+                    </div>
+                    <h3 class="title">Familia Rodríguez</h3>
+                  </div>
+                  <div className="itemTestimonio">
+                    <div class="testimonial-content">
+                      <div class="testimonial-icon">
+                        <i class="fa fa-quote-left"></i>
+                      </div>
+                      <p class="description">
+                        Es realmente un tiempo de calidad. Cuando les hemos
+                        hecho preguntas, nos han proporcionado todas las
+                        respuestas. La experiencia en este primer curso con
+                        ustedes en la plataforma ha sido excelente. Es un
+                        programa detallado y fácil de explicar a los niños, con
+                        un aprendizaje accesible para ellos. Además, nos brinda
+                        flexibilidad de tiempo para otras actividades. Realmente
+                        maravilloso... Gracias a todos.
+                      </p>
+                    </div>
+                    <h3 class="title">Familia Fernández.</h3>
+                  </div>
+                  <div className="itemTestimonio">
+                    <div class="testimonial-content">
+                      <div class="testimonial-icon">
+                        <i class="fa fa-quote-left"></i>
+                      </div>
+                      <p class="description">
+                        Estamos muy contentos con esta experiencia. No puedo
+                        dejar de recomendar entusiastamente esta plataforma a
+                        donde quiera que vaya, ya que me permite conectar con
+                        otros padres preocupados por la educación de sus hijos.
+                        Estamos agradecidos por el constante apoyo, guía y
+                        contención que hemos recibido.
+                      </p>
+                    </div>
+                    <h3 class="title">Pamela Martínez.</h3>
+                  </div>
+                </div>
+                <div class="testimonial">
+                  <div className="itemTestimonio">
+                    <div class="testimonial-content">
+                      <div class="testimonial-icon">
+                        <i class="fa fa-quote-left"></i>
+                      </div>
+                      <p class="description">
+                        Nuestra experiencia como familia fue excelente. La
+                        plataforma es accesible, práctica, amena y muy completa.
+                        ¡Todo el equipo está siempre atento! ¡Fueron una
+                        bendición!
+                      </p>
+                    </div>
+                    <h3 class="title">Familia Van Caur.</h3>
+                  </div>
+                  <div className="itemTestimonio">
+                    <div class="testimonial-content">
+                      <div class="testimonial-icon">
+                        <i class="fa fa-quote-left"></i>
+                      </div>
+                      <p class="description">
+                        Estamos muy conformes y agradecidos con la plataforma.
+                        Siempre que puedo, la recomiendo. Ya hay un niño de mi
+                        ciudad con ustedes... Mi más sincera felicitación y
+                        gratitud para todo el equipo.
+                      </p>
+                    </div>
+                    <h3 class="title">Familia Sbarbatti.</h3>
                   </div>
                 </div>
               </Carousel>

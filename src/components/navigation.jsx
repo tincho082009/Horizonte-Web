@@ -75,7 +75,7 @@ export const Navigation = (props) => {
               </a>
             </li>
              <li>
-              <a href='https://plataforma.educarhorizonte.com.ar/' target="_blank" className='page-scroll' style={{color: "#fff", backgroundColor: "#FF5500"}}>
+              <a href='https://portal.plataformahorizonte.com.ar' target="_blank" className='page-scroll' style={{color: "#fff", backgroundColor: "#FF5500"}}>
                 Ingresar
               </a>
             </li>

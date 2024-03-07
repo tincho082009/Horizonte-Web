@@ -1,18 +1,10 @@
 import { useEffect } from "react";
 import img1 from "./../assets/img/A.png";
-import img2 from "./../assets/img/B.png";
-import img3 from "./../assets/img/C.png";
-import img4 from "./../assets/img/D.png";
-import img5 from "./../assets/img/E.png";
-import img6 from "./../assets/img/Egresados/1.png";
-import img7 from "./../assets/img/Egresados/2.png";
-import img8 from "./../assets/img/Egresados/3.png";
-import img9 from "./../assets/img/Egresados/4.png";
-import img10 from "./../assets/img/Egresados/5.png";
-import img11 from "./../assets/img/Egresados/6.png";
-import img12 from "./../assets/img/Egresados/7.png";
-import img13 from "./../assets/img/Egresados/8.png";
-import img14 from "./../assets/img/Egresados/9.png";
+import img2 from "./../assets/img/1.1.png";
+import img3 from "./../assets/img/2.png";
+import img4 from "./../assets/img/C.png";
+import img5 from "./../assets/img/D2.png";
+import img6 from "./../assets/img/E.png";
 
 export const Header = (props) => {
   useEffect(() => {
@@ -48,30 +40,6 @@ export const Header = (props) => {
           </div>
           <div className="containerImage">
             <img src={img6} />
-          </div>
-          <div className="containerImage">
-            <img src={img7} />
-          </div>
-          <div className="containerImage">
-            <img src={img8} />
-          </div>
-          <div className="containerImage">
-            <img src={img9} />
-          </div>
-          <div className="containerImage">
-            <img src={img10} />
-          </div>
-          <div className="containerImage">
-            <img src={img11} />
-          </div>
-          <div className="containerImage">
-            <img src={img12} />
-          </div>
-          <div className="containerImage">
-            <img src={img13} />
-          </div>
-          <div className="containerImage">
-            <img src={img14} />
           </div>
         </div>
         <div className="container">

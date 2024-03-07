@@ -1022,7 +1022,7 @@ a:focus,
 }
 
 .segundaFila {
-  margin-left: 10%;
+  margin-left: 0%;
 }
 
 .flags {
@@ -1332,6 +1332,16 @@ a:focus,
 #Graduates {
   background: #a3c734;
   color: rgba(255, 255, 255, 0.75);
+}
+
+#StudentWorks {
+  padding: 100px 0 100px;
+  background: #f1f1f1;
+}
+
+#StudentWorks .section-title {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=App.css.map */

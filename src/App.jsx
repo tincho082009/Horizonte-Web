@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Us } from "./components/Us";
@@ -15,8 +14,9 @@ import { TeachersTeam } from "./components/TeachersTeam";
 import { Flags } from "./components/FlagsOfCountries";
 import { Testimony } from "./components/Testimony";
 import { MyGallery } from "./components/MyGallery";
-import { CourseTeachers } from "./components/CourseTeachers";
+//import { CourseTeachers } from "./components/CourseTeachers";
 import { Graduates } from "./components/Graduates";
+import { StudentWorks } from "./components/StudentWorks";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -59,6 +59,7 @@ const App = () => {
       <Graduates />
       <Testimony />
       <MyGallery />
+      <StudentWorks/>
       <Contact />
     </div>
   );

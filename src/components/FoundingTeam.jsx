@@ -1,7 +1,7 @@
-import img1 from "../assets/img/EquipoFundadores/JorgeIris6.jpg";
-import img2 from "../assets/img/EquipoFundadores/DiegoYaneth3.jpg";
+import img1 from "../assets/img/EquipoFundadores/JorgeIris8.jpg";
+import img2 from "../assets/img/EquipoFundadores/DiegoYaneth4.jpg";
 import img3 from "../assets/img/EquipoFundadores/Ezequiel4.jpg";
-import img4 from "../assets/img/EquipoFundadores/JorgeElizabet3.jpg";
+import img4 from "../assets/img/EquipoFundadores/JorgeElizabet4.jpg";
 
 export const FoundingTeam = (props) => {
   return (
@@ -40,7 +40,7 @@ export const FoundingTeam = (props) => {
               {" "}
               <img src={img2} alt="..." className="team-img" />
               <div className="caption">
-                <h4>Diego Malagon y Yaneth Medina</h4>
+                <h4>Diego Malagón y Yaneth Medina</h4>
                 {/*<p>Senior Designer</p>*/}
               </div>
             </div>

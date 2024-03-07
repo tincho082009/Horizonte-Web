@@ -2,11 +2,16 @@ import img1 from "./../assets/img/Egresados/A.png";
 import img2 from "./../assets/img/Egresados/B.png";
 import img3 from "./../assets/img/Egresados/C.png";
 import img4 from "./../assets/img/Egresados/D.png";
-import img5 from "./../assets/img/Egresados/E.png";
-import img6 from "./../assets/img/Egresados/F.png";
+import img5 from "./../assets/img/Egresados/E2.png";
+import img6 from "./../assets/img/Egresados/F2.png";
 import img7 from "./../assets/img/Egresados/G.png";
 import img8 from "./../assets/img/Egresados/H.png";
 import img9 from "./../assets/img/Egresados/I.png";
+import img10 from "./../assets/img/Egresados/J2.png";
+import img11 from "./../assets/img/Egresados/k.png";
+import img12 from "./../assets/img/Egresados/L.png";
+import img13 from "./../assets/img/Egresados/M.png";
+import img14 from "./../assets/img/Egresados/N.png";
 
 import { Carousel } from "react-responsive-carousel";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
@@ -45,7 +50,7 @@ export const Graduates = (props) => {
               onClick={onClickHandler}
               title={label}
               style={{
-                 //ff5500 --> NARANJA
+                //ff5500 --> NARANJA
                 color: "#FFFF",
                 position: "absolute",
                 zIndex: 2,
@@ -64,67 +69,101 @@ export const Graduates = (props) => {
           <div class="graduates-card">
             <div className="itemGraduate">
               <div className="containerImage">
-                <img src={img1} />
+                <img src={img1} alt="" />
               </div>
             </div>
           </div>
           <div class="graduates-card">
             <div className="itemGraduate">
               <div className="containerImage">
-                <img src={img2} />
+                <img src={img2} alt="" />
               </div>
             </div>
           </div>
           <div class="graduates-card">
             <div className="itemGraduate">
               <div className="containerImage">
-                <img src={img3} />
+                <img src={img3} alt="" />
               </div>
             </div>
           </div>
           <div class="graduates-card">
             <div className="itemGraduate">
               <div className="containerImage">
-                <img src={img4} />
+                <img src={img4} alt="" />
               </div>
             </div>
           </div>
           <div class="graduates-card">
             <div className="itemGraduate">
               <div className="containerImage">
-                <img src={img5} />
+                <img src={img5} alt="" />
               </div>
             </div>
           </div>
           <div class="graduates-card">
             <div className="itemGraduate">
               <div className="containerImage">
-                <img src={img6} />
+                <img src={img6} alt="" />
               </div>
             </div>
           </div>
           <div class="graduates-card">
             <div className="itemGraduate">
               <div className="containerImage">
-                <img src={img7} />
+                <img src={img7} alt="" />
               </div>
             </div>
           </div>
           <div class="graduates-card">
             <div className="itemGraduate">
               <div className="containerImage">
-                <img src={img8} />
+                <img src={img8} alt="" />
               </div>
             </div>
           </div>
           <div class="graduates-card">
             <div className="itemGraduate">
               <div className="containerImage">
-                <img src={img9} />
+                <img src={img9} alt="" />
               </div>
             </div>
           </div>
-
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img10} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img11} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img12} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img13} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img14} alt="" />
+              </div>
+            </div>
+          </div>
         </Carousel>
       </div>
     </div>
