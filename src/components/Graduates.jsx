@@ -12,6 +12,7 @@ import img11 from "./../assets/img/Egresados/k.png";
 import img12 from "./../assets/img/Egresados/L.png";
 import img13 from "./../assets/img/Egresados/M.png";
 import img14 from "./../assets/img/Egresados/N.png";
+import img15 from "./../assets/img/Egresados/N2.png";
 
 import { Carousel } from "react-responsive-carousel";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
@@ -161,6 +162,13 @@ export const Graduates = (props) => {
             <div className="itemGraduate">
               <div className="containerImage">
                 <img src={img14} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img15} alt="" />
               </div>
             </div>
           </div>

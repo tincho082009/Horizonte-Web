@@ -97,7 +97,7 @@ export const StudentWorks = (props) => {
               class="small pull-right"
               style={{ marginTop: "20px", fontSize: "1.6rem" }}
             >
-              Julián Stricker
+              Julián Stricker, Alumno de Horizonte
               {/*<cite>
                 <b> Poema para Plataforma Horizonte</b>
         </cite>*/}

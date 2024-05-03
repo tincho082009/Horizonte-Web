@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import img1 from "./../assets/img/A.png";
 import img2 from "./../assets/img/1.1.png";
 import img3 from "./../assets/img/2.png";
-import img4 from "./../assets/img/C.png";
-import img5 from "./../assets/img/D2.png";
+import img4 from "./../assets/img/C2.png";
+import img5 from "./../assets/img/D4.png";
 import img6 from "./../assets/img/E.png";
 
 export const Header = (props) => {
@@ -24,22 +24,22 @@ export const Header = (props) => {
         <div id="stage">
           {/*<div className='containerImage'><img  src={pic1} /></div>*/}
           <div className="containerImage">
-            <img src={img1} />
+            <img src={img1} alt="" />
           </div>
           <div className="containerImage">
-            <img src={img2} />
+            <img src={img2} alt="" />
           </div>
           <div className="containerImage">
-            <img src={img3} />
+            <img src={img3} alt="" />
           </div>
           <div className="containerImage">
-            <img src={img4} />
+            <img src={img4} alt="" />
           </div>
           <div className="containerImage">
-            <img src={img5} />
+            <img src={img5} alt="" />
           </div>
           <div className="containerImage">
-            <img src={img6} />
+            <img src={img6} alt="" />
           </div>
         </div>
         <div className="container">

@@ -1,4 +1,4 @@
-import img1 from "../assets/img/team-3.jpg";
+import img1 from "../assets/img/team-5.jpg";
 
 export const FamilyTeam = (props) => {
   return (
@@ -25,15 +25,15 @@ export const FamilyTeam = (props) => {
                 <br />
                 Sin conocernos, caminábamos hacia el mismo horizonte de educar
                 en casa. Y nos fuimos encontrando con otras familias entre
-                mails, páginas web, y redes sociales, donde descubríamos
+                emails, páginas web, y redes sociales, donde descubríamos
                 novedades o nos respondían preguntas. Nos alegramos; nos
                 abrazamos; ¡Y nos ayudamos!
                 <br />
                 Tres de esas familias argentinas que evolucionamos juntas
-                durante diez años, con un papá novato que es pedagogo, decidimos
-                asociarnos para crear este espacio, donde educar en casa se les
-                haga más fácil a todas las familias que llevan a sus hijos hacia
-                el mismo horizonte de la libertad.
+                durante diez años, decidimos asociarnos. Y asistidos por un
+                equipo de docentes profesionales, creamos este espacio, donde
+                educar en casa se les haga más fácil a todas las familias que
+                llevan a sus hijos hacia el mismo horizonte de la libertad.
               </p>
             </div>
           </div>

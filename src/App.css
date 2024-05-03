@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body,
 html {
   font-family: "Segoe UI", sans-serif;
@@ -86,32 +85,31 @@ hr {
 
 #icon-whats:before {
   font-size: 43px;
-  content: "";
+  content: "\f232";
   margin-left: 3px;
   font-family: "FontAwesome";
-  color: #FFFF;
+  color: white;
 }
 
 @media screen and (max-width: 400px) {
   #header,
-#Nosotros,
-#MissionVision,
-#Certificacion,
-#contents,
-#modality,
-#graduates,
-#EquipoDeFamilias,
-#courseTeachers,
-#Testimony,
-#Gallery,
-#Flags,
-#fTeam,
-#team,
-#contact,
-#footer {
+  #Nosotros,
+  #MissionVision,
+  #Certificacion,
+  #contents,
+  #modality,
+  #graduates,
+  #EquipoDeFamilias,
+  #courseTeachers,
+  #Testimony,
+  #Gallery,
+  #Flags,
+  #fTeam,
+  #team,
+  #contact,
+  #footer {
     width: 111%;
   }
-
   #portfolio {
     width: 110%;
   }
@@ -294,7 +292,7 @@ label {
 }
 
 #contact .contact-item span {
-  color: white;
+  color: rgb(255, 255, 255);
   margin-bottom: 5px;
   display: block;
 }
@@ -374,7 +372,7 @@ label {
 }
 
 #contents .list-style li:before {
-  content: "";
+  content: "\f00c";
   font-family: "FontAwesome";
   color: #60B071;
   font-size: 11px;
@@ -393,7 +391,7 @@ label {
 }
 
 #contents .nav-pills li a {
-  background-color: #ff5500b6;
+  background-color: rgba(255, 85, 0, 0.7137254902);
   color: #e6e6e6;
 }
 
@@ -407,7 +405,7 @@ label {
 
 /*Equipo de familias*/
 #EquipoDeFamilias {
-  padding: 100px 0;
+  padding: 60px 0;
   background: #ff661a;
   color: #fff;
 }
@@ -442,6 +440,15 @@ label {
   left: 0;
 }
 
+#EquipoDeFamilias .about-text {
+  margin-top: 15%;
+}
+
+@media (max-width: 991px) {
+  #EquipoDeFamilias .about-text {
+    margin-top: 0;
+  }
+}
 #EquipoDeFamilias img {
   width: 520px;
   margin-top: 10px;
@@ -711,11 +718,9 @@ header .intro-text {
   .text-menu {
     margin: 5px 0 0 100px;
   }
-
   .img-menu-bot {
     left: 10px;
   }
-
   .img-menu-top {
     left: 10px;
   }
@@ -952,7 +957,7 @@ a:focus,
 }
 
 #Nosotros .about-text li:before {
-  content: "";
+  content: "\f00c";
   font-family: "FontAwesome";
   color: #5ca9fb;
   font-size: 11px;
@@ -1290,16 +1295,13 @@ a:focus,
   .row1-container {
     margin-left: 15%;
   }
-
   .row2-container {
     margin-left: 15%;
   }
-
   .teacherCard {
     text-align: center;
     width: 75%;
   }
-
   #courseTeachers .teacherCard {
     padding: 30px;
     margin: 25px;
@@ -1311,19 +1313,16 @@ a:focus,
     justify-content: center;
     align-items: center;
   }
-
   .row2-container {
     margin-top: 6%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
   .card-down {
     position: relative;
     top: 250px;
   }
-
   .teacherCard {
     width: 25%;
     text-align: center;

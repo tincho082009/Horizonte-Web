@@ -27,7 +27,7 @@ export const Navigation = (props) => {
   }
   
   return (
-    <nav id='menu' className={`navbar navbar-default navbar-fixed-top`} style={flag == "top" ? {backgroundColor: "transparent", boxShadow: "none"}:{}}>
+    <nav id='menu' className={`navbar navbar-default navbar-fixed-top`} style={flag === "top" ? {backgroundColor: "transparent", boxShadow: "none"}:{}}>
       <div className='container'>
         <div className='navbar-header'>
           <button
@@ -44,9 +44,9 @@ export const Navigation = (props) => {
           </button>
           <a className='navbar-brand page-scroll' href='#Home'>
             {/*<div className='container-img-menu'></div>*/}
-            <img src={img1} className={`img-menu-${flag}`}/>
+            <img src={img1} alt="" className={`img-menu-${flag}`}/>
           </a>{' '}
-          <div className="text-menu"style={flag == "top" ? {display:  "none"}:{}}>"Sembrando en el corazón <br/> de nuestros hijos"</div>
+          <div className="text-menu"style={flag === "top" ? {display:  "none"}:{}}>"Sembrando en el corazón <br/> de nuestros hijos"</div>
         </div>
         
         <div
@@ -75,7 +75,7 @@ export const Navigation = (props) => {
               </a>
             </li>
              <li>
-              <a href='https://portal.plataformahorizonte.com.ar' target="_blank" className='page-scroll' style={{color: "#fff", backgroundColor: "#FF5500"}}>
+              <a href='https://portal.plataformahorizonte.com.ar' rel="noreferrer" target="_blank" className='page-scroll' style={{color: "#fff", backgroundColor: "#FF5500"}}>
                 Ingresar
               </a>
             </li>

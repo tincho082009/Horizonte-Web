@@ -2,7 +2,7 @@ import img1 from "./../assets/img/Galeria/EncuentroIngles.jpeg";
 import img2 from "./../assets/img/Galeria/Ninios4.jpeg";
 import img3 from "./../assets/img/Galeria/Dibujo3.jpeg";
 import img4 from "./../assets/img/Galeria/EncuentroSocial.jpeg";
-import img5 from "./../assets/img/Galeria/EncuentroPadres.jpeg";
+import img5 from "./../assets/img/Galeria/Clases1.jpg";
 import img6 from "./../assets/img/Galeria/AmigosDelPlaneta.jpeg";
 import img7 from "./../assets/img/Galeria/DonPasto.jpeg";
 import img8 from "./../assets/img/Galeria/Ninios5.jpeg";
@@ -12,7 +12,7 @@ import img10 from "./../assets/img/Galeria/Ninios3.jpeg";
 import { Gallery } from "react-grid-gallery";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
-import { useState, useEffect } from "react";
+import { useState} from "react";
 
 const images = [
   {
@@ -47,11 +47,10 @@ const images = [
   },
   {
     src: img5,
-    width: 445,
+    width: 281,
     height: 500,
-    caption: "Interacción zoom con padres de familia",
+    caption: "Alumnos en clase",
   },
-
   {
     src: img10,
     width: 281,

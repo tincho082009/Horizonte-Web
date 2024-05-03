@@ -1,11 +1,7 @@
-//import img1 from "../assets/img/EquipoDocentes/CamilaQuiroga2.jpeg";
+import img1 from "../assets/img/EquipoDocentes/RobertoLima.jpg";
 import img2 from "../assets/img/EquipoDocentes/DeboraEspinola3.jpg";
-//import img3 from "../assets/img/EquipoDocentes/MatiasAbb2.jpeg";
 import img4 from "../assets/img/EquipoDocentes/DavidGonzalez2.jpeg";
 import img5 from "../assets/img/EquipoDocentes/AbigailLavini3.jpg";
-//import img6 from "../assets/img/EquipoDocentes/MariaRuiz2.jpeg";
-import img7 from "../assets/img/EquipoDocentes/EzequielChao5.jpg";
-//import img8 from "../assets/img/EquipoDocentes/IrisAab2.jpeg";
 import img9 from "../assets/img/EquipoDocentes/AnabelLima2.jpg";
 import img10 from "../assets/img/EquipoDocentes/NataliaFernandez.jpg";
 import img11 from "../assets/img/EquipoDocentes/LauraJuarez2.jpg";
@@ -17,24 +13,7 @@ export const TeachersTeam = (props) => {
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>Equipo de Docentes</h2>
         </div>
-        <div className="row">
-          <div key={`John Doe-1`} className="col-md-12 col-sm-6 team">
-            <div className="thumbnail">
-              {" "}
-              <img src={img7} alt="..." className="team-img" />
-              <div className="caption">
-                <h4>Ezequiel Chao Farroni</h4>
-                <p>
-                  Supervisor Docente.
-                  <br /> Profesor de Biología, Física y Química.
-                  <br />
-                  Nivel Secundario <br />
-                  Ingeniero Agrónomo (FAUBA), Formación pedagógica (UFASTA)
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+
         <div className="row">
           <div key={`John Doe-2`} className="col-md-4 col-sm-6 team">
             <div className="thumbnail">
@@ -76,7 +55,21 @@ export const TeachersTeam = (props) => {
           </div>
         </div>
         <div className="row">
-          <div key={`Karen Doe-9`} className="col-md-4 col-sm-6 team">
+          <div key={`John Doe-2`} className="col-md-3 col-sm-6 team">
+            <div className="thumbnail">
+              {" "}
+              <img src={img1} alt="..." className="team-img" />
+              <div className="caption">
+                <h4>Roberto Lima</h4>
+                <p>
+                  Profesor de Biología.
+                  <br />
+                  Nivel Secundario
+                </p>
+              </div>
+            </div>
+          </div>
+          <div key={`Karen Doe-9`} className="col-md-3 col-sm-6 team">
             <div className="thumbnail">
               {" "}
               <img src={img11} alt="..." className="team-img" />
@@ -86,7 +79,7 @@ export const TeachersTeam = (props) => {
               </div>
             </div>
           </div>
-          <div key={`Jane-8`} className="col-md-4 col-sm-6 team">
+          <div key={`Jane-8`} className="col-md-3 col-sm-6 team">
             <div className="thumbnail">
               {" "}
               <img src={img10} alt="..." className="team-img" />
@@ -100,7 +93,7 @@ export const TeachersTeam = (props) => {
               </div>
             </div>
           </div>
-          <div key={`Karen Doe-10`} className="col-md-4 col-sm-6 team">
+          <div key={`Karen Doe-10`} className="col-md-3 col-sm-6 team">
             <div className="thumbnail">
               {" "}
               <img src={img9} alt="..." className="team-img" />
