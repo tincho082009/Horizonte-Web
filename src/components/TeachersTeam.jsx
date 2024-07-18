@@ -5,6 +5,7 @@ import img5 from "../assets/img/EquipoDocentes/AbigailLavini3.jpg";
 import img9 from "../assets/img/EquipoDocentes/AnabelLima2.jpg";
 import img10 from "../assets/img/EquipoDocentes/NataliaFernandez.jpg";
 import img11 from "../assets/img/EquipoDocentes/LauraJuarez2.jpg";
+import img6 from "../assets/img/EquipoDocentes/NoeliaEspinola.jpg";
 
 export const TeachersTeam = (props) => {
   return (
@@ -15,7 +16,7 @@ export const TeachersTeam = (props) => {
         </div>
 
         <div className="row">
-          <div key={`John Doe-2`} className="col-md-4 col-sm-6 team">
+          <div key={`John Doe-2`} className="col-md-3 col-sm-6 team">
             <div className="thumbnail">
               {" "}
               <img src={img5} alt="..." className="team-img" />
@@ -25,7 +26,7 @@ export const TeachersTeam = (props) => {
               </div>
             </div>
           </div>
-          <div key={`Mike Doe-3`} className="col-md-4 col-sm-6 team">
+          <div key={`Mike Doe-3`} className="col-md-3 col-sm-6 team">
             <div className="thumbnail">
               {" "}
               <img src={img2} alt="..." className="team-img" />
@@ -39,7 +40,7 @@ export const TeachersTeam = (props) => {
               </div>
             </div>
           </div>
-          <div key={`Karen Doe-5`} className="col-md-4 col-sm-6 team">
+          <div key={`Karen Doe-5`} className="col-md-3 col-sm-6 team">
             <div className="thumbnail">
               {" "}
               <img src={img4} alt="..." className="team-img" />
@@ -47,6 +48,20 @@ export const TeachersTeam = (props) => {
                 <h4>David Leonardo González M.</h4>
                 <p>
                   Profesor de Matemáticas.
+                  <br />
+                  Nivel Secundario
+                </p>
+              </div>
+            </div>
+          </div>
+          <div key={`Karen Doe-5`} className="col-md-3 col-sm-6 team">
+            <div className="thumbnail">
+              {" "}
+              <img src={img6} alt="..." className="team-img" />
+              <div className="caption">
+                <h4>Noelia Espínola</h4>
+                <p>
+                  Profesora de Física y Química.
                   <br />
                   Nivel Secundario
                 </p>

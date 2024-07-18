@@ -1329,7 +1329,9 @@ a:focus,
   }
 }
 #Graduates {
-  background: #a3c734;
+  background-image: url("./assets/img/Egresados/Fondo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   color: rgba(255, 255, 255, 0.75);
 }
 

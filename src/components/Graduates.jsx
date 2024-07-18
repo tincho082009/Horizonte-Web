@@ -13,6 +13,8 @@ import img12 from "./../assets/img/Egresados/L.png";
 import img13 from "./../assets/img/Egresados/M.png";
 import img14 from "./../assets/img/Egresados/N.png";
 import img15 from "./../assets/img/Egresados/N2.png";
+import img16 from "./../assets/img/Egresados/O.png";
+import img17 from "./../assets/img/Egresados/P.png";
 
 import { Carousel } from "react-responsive-carousel";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
@@ -33,7 +35,7 @@ export const Graduates = (props) => {
               title={label}
               style={{
                 //ff5500 --> NARANJA
-                color: "#FFFF",
+                color: "#ff5500",
                 position: "absolute",
                 zIndex: 2,
                 top: "calc(50% - 15px)",
@@ -52,7 +54,7 @@ export const Graduates = (props) => {
               title={label}
               style={{
                 //ff5500 --> NARANJA
-                color: "#FFFF",
+                color: "#ff5500",
                 position: "absolute",
                 zIndex: 2,
                 top: "calc(50% - 15px)",
@@ -169,6 +171,20 @@ export const Graduates = (props) => {
             <div className="itemGraduate">
               <div className="containerImage">
                 <img src={img15} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img16} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img17} alt="" />
               </div>
             </div>
           </div>

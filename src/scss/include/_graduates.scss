@@ -1,5 +1,9 @@
+//TODO COMPILA DESDE EL App.css
 #Graduates {
-  background: #a3c734; //COLOR ORIGINAL
-  //background: #ff661a; //COLOR SECUNDARIO
+  //background: #a3c734; //COLOR ORIGINAL
+  background-image: url("./assets/img/Egresados/Fondo.png");
+  background-size: cover;
+  background-repeat: no-repeat; 
+  //background: #AFAEAE; //COLOR SECUNDARIO
   color: rgba(255, 255, 255, 0.75);
 }

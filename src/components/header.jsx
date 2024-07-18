@@ -1,10 +1,12 @@
 import { useEffect } from "react";
-import img1 from "./../assets/img/A.png";
-import img2 from "./../assets/img/1.1.png";
-import img3 from "./../assets/img/2.png";
-import img4 from "./../assets/img/C2.png";
-import img5 from "./../assets/img/D4.png";
-import img6 from "./../assets/img/E.png";
+import img1 from "./../assets/img/1A.png";
+import img2 from "./../assets/img/2B.png";
+import img3 from "./../assets/img/3C.png";
+import img4 from "./../assets/img/4D.png";
+import img5 from "./../assets/img/5E.png";
+import img6 from "./../assets/img/6F.png";
+import img7 from "./../assets/img/7G.png";
+
 
 export const Header = (props) => {
   useEffect(() => {
@@ -40,6 +42,9 @@ export const Header = (props) => {
           </div>
           <div className="containerImage">
             <img src={img6} alt="" />
+          </div>
+          <div className="containerImage">
+            <img src={img7} alt="" />
           </div>
         </div>
         <div className="container">
