@@ -1,4 +1,4 @@
-import img1 from "../assets/img/team-5.jpg";
+import img1 from "../assets/img/team-7.jpg";
 
 export const FamilyTeam = (props) => {
   return (

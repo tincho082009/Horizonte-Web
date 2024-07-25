@@ -896,6 +896,7 @@ a:focus,
 
 #team .team-img {
   width: 240px;
+  box-shadow: 5px 5px #60b071;
 }
 
 #team .thumbnail {

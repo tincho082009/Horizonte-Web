@@ -1,4 +1,4 @@
-import img1 from "./../assets/img/Egresados/A.png";
+import img1 from "./../assets/img/Egresados/1A.png";
 import img2 from "./../assets/img/Egresados/B.png";
 import img3 from "./../assets/img/Egresados/C.png";
 import img4 from "./../assets/img/Egresados/D.png";
