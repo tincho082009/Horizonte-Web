@@ -15,6 +15,11 @@ import img14 from "./../assets/img/Egresados/N.png";
 import img15 from "./../assets/img/Egresados/N2.png";
 import img16 from "./../assets/img/Egresados/O.png";
 import img17 from "./../assets/img/Egresados/P.png";
+import img18 from "./../assets/img/Egresados/Q.png";
+import img19 from "./../assets/img/Egresados/R.png";
+import img20 from "./../assets/img/Egresados/S.png";
+import img21 from "./../assets/img/Egresados/T.png";
+import img22 from "./../assets/img/Egresados/U.png";
 
 import { Carousel } from "react-responsive-carousel";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
@@ -185,6 +190,41 @@ export const Graduates = (props) => {
             <div className="itemGraduate">
               <div className="containerImage">
                 <img src={img17} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img18} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img19} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img20} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img21} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img22} alt="" />
               </div>
             </div>
           </div>
