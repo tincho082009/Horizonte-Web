@@ -1,20 +1,15 @@
 /*Certification section*/
 #Certificacion {
-    padding: 60px 0;
+    padding: 100px 0;
     background: #a3c734;   //COLOR ORIGINAL
     //background: #ff661a;  //COLOR SECUNDARIO
     color: #fff;
   }
 
-  #Certificacion .about-text {
-    padding-top: 15%;
-  }
-
-  @media (max-width: 992px) {
-    #Certificacion .about-text {
-      padding-top: 10%;
-    }
-  }
+  #Certificacion .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
 
   #Certificacion h2 {
     position: relative;
@@ -22,22 +17,19 @@
     padding-bottom: 15px;
     color: #fff;
   }
+  
   #Certificacion h2::after {
-    position: absolute;
-    content: "";
     background: rgba(255, 255, 255, 0.3);
-    height: 4px;
-    width: 60px;
-    bottom: 0;
-    left: 0;
   }
+
   #Certificacion img {
-    margin-top: 10px;
     background: #fff;
     border-radius: 50%;
     height: auto;
-    width: 40%;
+    width: 50%;
+    margin-left:25%;
   }
+
   #Certificacion p {
     line-height: 24px;
     margin: 30px 0;
@@ -45,8 +37,14 @@
     text-align: justify;
   }
 
-  @media (max-width: 768px) {
-    #certification img {
-      margin: 50px 0;
+  
+  @media (max-width: 992px) {
+    #Certificacion .section-title {
+      padding-top: 10%;
+    }
+
+    #Certificacion img {
+      width: 50%;
+      margin-left: 25%;
     }
   }

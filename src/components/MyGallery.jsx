@@ -23,6 +23,10 @@ import img22 from "./../assets/img/Galeria/22.jpg";
 import img23 from "./../assets/img/Galeria/23.jpg";
 import img24 from "./../assets/img/Galeria/24.jpg";
 import img25 from "./../assets/img/Galeria/25.jpg";
+import img26 from "./../assets/img/Galeria/BiografiaPersonal.jpg";
+import img27 from "./../assets/img/Galeria/Poesía Juan 8vo.jpg";
+import img28 from "./../assets/img/Galeria/Poesía Sarah 8vo.jpg";
+import img29 from "./../assets/img/Galeria/Poesía de Tiziano Gardel 8vo grado.jpeg.jpg";
 
 import { Gallery } from "react-grid-gallery";
 import Lightbox from "react-image-lightbox";
@@ -183,6 +187,30 @@ const images = [
     width: 281,
     height: 500,
     caption: "Trabajos de alumnos",
+  },
+  {
+    src: img27,
+    width: 664,
+    height: 500,
+    caption: "Trabajos de alumnos",
+  },
+  {
+    src: img28,
+    width: 910,
+    height: 500,
+    caption: "Trabajos de alumnos: Poesía ",
+  },
+  {
+    src: img26,
+    width: 200,//200
+    height: 500,//500
+    caption: "Trabajos de alumnos",
+  },
+  {
+    src: img29,
+    width: 317,
+    height: 500,
+    caption: "Trabajos de alumnos: Poesía Tiziano Gardel",
   },
 ];
 

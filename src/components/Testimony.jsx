@@ -1,6 +1,8 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import ReactPlayer from "react-player";
+import video from "../assets/img/Testimonio.mp4";
 
 export const Testimony = (props) => {
   return (
@@ -101,6 +103,16 @@ export const Testimony = (props) => {
                   );
                 }}
               >
+                <div class="testimonial">
+                  <div class="videoTestimonial">
+                    <ReactPlayer
+                      url={video}
+                      controls={true}
+                      width="100%"
+                      height="100%"
+                    />
+                  </div>
+                </div>
                 <div class="testimonial">
                   <div className="itemTestimonio">
                     <div class="testimonial-content">

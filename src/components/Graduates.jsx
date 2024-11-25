@@ -20,6 +20,14 @@ import img19 from "./../assets/img/Egresados/R.png";
 import img20 from "./../assets/img/Egresados/S.png";
 import img21 from "./../assets/img/Egresados/T.png";
 import img22 from "./../assets/img/Egresados/U.png";
+import img23 from "./../assets/img/Egresados/V.png";
+import img24 from "./../assets/img/Egresados/W.png";
+import img25 from "./../assets/img/Egresados/X.png";
+import img26 from "./../assets/img/Egresados/Y.png";
+import img27 from "./../assets/img/Egresados/Z.png";
+import img28 from "./../assets/img/Egresados/1.png";
+import img29 from "./../assets/img/Egresados/2.png";
+import img30 from "./../assets/img/Egresados/3.png";
 
 import { Carousel } from "react-responsive-carousel";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
@@ -84,133 +92,63 @@ export const Graduates = (props) => {
           <div class="graduates-card">
             <div className="itemGraduate">
               <div className="containerImage">
-                <img src={img2} alt="" />
+                <img src={img30} alt="" />
               </div>
             </div>
           </div>
           <div class="graduates-card">
             <div className="itemGraduate">
               <div className="containerImage">
-                <img src={img3} alt="" />
+                <img src={img29} alt="" />
               </div>
             </div>
           </div>
           <div class="graduates-card">
             <div className="itemGraduate">
               <div className="containerImage">
-                <img src={img4} alt="" />
+                <img src={img28} alt="" />
               </div>
             </div>
           </div>
           <div class="graduates-card">
             <div className="itemGraduate">
               <div className="containerImage">
-                <img src={img5} alt="" />
+                <img src={img27} alt="" />
               </div>
             </div>
           </div>
           <div class="graduates-card">
             <div className="itemGraduate">
               <div className="containerImage">
-                <img src={img6} alt="" />
+                <img src={img26} alt="" />
               </div>
             </div>
           </div>
           <div class="graduates-card">
             <div className="itemGraduate">
               <div className="containerImage">
-                <img src={img7} alt="" />
+                <img src={img25} alt="" />
               </div>
             </div>
           </div>
           <div class="graduates-card">
             <div className="itemGraduate">
               <div className="containerImage">
-                <img src={img8} alt="" />
+                <img src={img24} alt="" />
               </div>
             </div>
           </div>
           <div class="graduates-card">
             <div className="itemGraduate">
               <div className="containerImage">
-                <img src={img9} alt="" />
+                <img src={img23} alt="" />
               </div>
             </div>
           </div>
           <div class="graduates-card">
             <div className="itemGraduate">
               <div className="containerImage">
-                <img src={img10} alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="graduates-card">
-            <div className="itemGraduate">
-              <div className="containerImage">
-                <img src={img11} alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="graduates-card">
-            <div className="itemGraduate">
-              <div className="containerImage">
-                <img src={img12} alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="graduates-card">
-            <div className="itemGraduate">
-              <div className="containerImage">
-                <img src={img13} alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="graduates-card">
-            <div className="itemGraduate">
-              <div className="containerImage">
-                <img src={img14} alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="graduates-card">
-            <div className="itemGraduate">
-              <div className="containerImage">
-                <img src={img15} alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="graduates-card">
-            <div className="itemGraduate">
-              <div className="containerImage">
-                <img src={img16} alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="graduates-card">
-            <div className="itemGraduate">
-              <div className="containerImage">
-                <img src={img17} alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="graduates-card">
-            <div className="itemGraduate">
-              <div className="containerImage">
-                <img src={img18} alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="graduates-card">
-            <div className="itemGraduate">
-              <div className="containerImage">
-                <img src={img19} alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="graduates-card">
-            <div className="itemGraduate">
-              <div className="containerImage">
-                <img src={img20} alt="" />
+                <img src={img22} alt="" />
               </div>
             </div>
           </div>
@@ -224,7 +162,133 @@ export const Graduates = (props) => {
           <div class="graduates-card">
             <div className="itemGraduate">
               <div className="containerImage">
-                <img src={img22} alt="" />
+                <img src={img20} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img19} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img18} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img17} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img16} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img15} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img14} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img13} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img12} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img11} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img10} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img9} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img8} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img7} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img6} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img5} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img4} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img3} alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="graduates-card">
+            <div className="itemGraduate">
+              <div className="containerImage">
+                <img src={img2} alt="" />
               </div>
             </div>
           </div>
