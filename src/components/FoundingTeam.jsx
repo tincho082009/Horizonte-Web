@@ -1,7 +1,7 @@
-import img1 from "../assets/img/EquipoFundadores/JorgeIris8.jpg";
-import img2 from "../assets/img/EquipoFundadores/DiegoYaneth4.jpg";
+import img1 from "../assets/img/EquipoFundadores/JorgeIris9.jpg";
+import img2 from "../assets/img/EquipoFundadores/DiegoYaneth5.jpg";
 import img3 from "../assets/img/EquipoFundadores/Ezequiel4.jpg";
-import img4 from "../assets/img/EquipoFundadores/JorgeElizabet4.jpg";
+import img4 from "../assets/img/EquipoFundadores/JorgeElizabet5.jpg";
 
 export const FoundingTeam = (props) => {
   return (

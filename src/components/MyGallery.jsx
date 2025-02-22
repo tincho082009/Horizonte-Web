@@ -119,7 +119,7 @@ const images = [
     height: 500,
     caption: "Trabajos de alumnos",
   },
-  
+
   {
     src: img17,
     width: 1003,
@@ -157,7 +157,7 @@ const images = [
     height: 500,
     caption: "Trabajos de alumnos",
   },
-  
+
   {
     src: img22,
     width: 500,
@@ -183,35 +183,23 @@ const images = [
     caption: "Trabajos de alumnos",
   },
   {
+    src: img29,
+    width: 317,
+    height: 500,
+    caption: "Trabajos de alumnos: Poesía Tiziano Gardel",
+  },
+  {
     src: img25,
     width: 281,
     height: 500,
     caption: "Trabajos de alumnos",
   },
   {
-    src: img27,
-    width: 664,
-    height: 500,
-    caption: "Trabajos de alumnos",
-  },
-  {
-    src: img28,
-    width: 910,
-    height: 500,
-    caption: "Trabajos de alumnos: Poesía ",
-  },
-  {
     src: img26,
-    width: 200,//200
-    height: 500,//500
+    width: 200, //200
+    height: 500, //500
     caption: "Trabajos de alumnos",
-  },
-  {
-    src: img29,
-    width: 317,
-    height: 500,
-    caption: "Trabajos de alumnos: Poesía Tiziano Gardel",
-  },
+  }
 ];
 
 export const MyGallery = (props) => {
@@ -242,10 +230,10 @@ export const MyGallery = (props) => {
             nuestros chicos se conocen con otros chicos de otros países y
             exponen sus ideas.
             <br />
-            <b>Talleres:</b> Arte y pintura nivel 1 y 2, Repostería nivel 1 y 2,
+            {/*<b>Talleres:</b> Arte y pintura nivel 1 y 2, Repostería nivel 1 y 2,
             Aprendiendo a Aprender, Periodismo nivel 1 y 2, <br />
             Introducción a la programación nivel 1, Diseño página web.
-            <br />
+            <br />*/}
             <b>Interacción zoom con padres de familia.</b>
           </p>
         </div>

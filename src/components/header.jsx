@@ -1,11 +1,11 @@
 import { useEffect } from "react";
-import img1 from "./../assets/img/1A.png";
+import img1 from "./../assets/img/1B.png";
 import img2 from "./../assets/img/2B.png";
-import img3 from "./../assets/img/3C.png";
-import img4 from "./../assets/img/4D.png";
-import img5 from "./../assets/img/5E.png";
-import img6 from "./../assets/img/6F.png";
-import img7 from "./../assets/img/7G.png";
+import img3 from "./../assets/img/3B.png";
+import img4 from "./../assets/img/4B.png";
+import img5 from "./../assets/img/5B.png";
+import img6 from "./../assets/img/6B.png";
+import img7 from "./../assets/img/7B.png";
 
 
 export const Header = (props) => {

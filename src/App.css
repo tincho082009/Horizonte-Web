@@ -141,8 +141,8 @@ hr {
   background: #fff;
   border-radius: 50%;
   height: auto;
-  width: 50%;
-  margin-left: 25%;
+  width: 40%;
+  margin-left: 30%;
 }
 
 #Certificacion p {
@@ -520,7 +520,7 @@ label {
 
 #stage div:nth-of-type(1) {
   animation-name: fader;
-  animation-delay: 4s;
+  animation-delay: 7s;
   animation-duration: 1s;
   z-index: 20;
 }
@@ -1345,7 +1345,6 @@ a:focus,
   }
 }
 #Graduates {
-  background-image: url("./assets/img/Egresados/Fondo.png");
   background-size: cover;
   background-repeat: no-repeat;
   color: rgba(255, 255, 255, 0.75);

@@ -3,6 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import ReactPlayer from "react-player";
 import video from "../assets/img/Testimonio.mp4";
+import video2 from "../assets/img/Testimonio2.mp4";
 
 export const Testimony = (props) => {
   return (
@@ -11,7 +12,7 @@ export const Testimony = (props) => {
         <div className="section-title">
           <h2>Testimonios</h2>
           <p>
-            Testimonios de padres y estudiantes acerca de <b>Horizonte</b>.
+            De padres y estudiantes acerca de <b>Horizonte</b>.
           </p>
         </div>
         <div class="row">
@@ -103,6 +104,16 @@ export const Testimony = (props) => {
                   );
                 }}
               >
+                <div class="testimonial">
+                  <div class="videoTestimonial">
+                    <ReactPlayer
+                      url={video2}
+                      controls={true}
+                      width="100%"
+                      height="100%"
+                    />
+                  </div>
+                </div>
                 <div class="testimonial">
                   <div class="videoTestimonial">
                     <ReactPlayer
